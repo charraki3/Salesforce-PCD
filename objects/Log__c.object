@@ -143,53 +143,51 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Contains technical log. Visible by admins only.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <gender>Masculine</gender>
-    <label>Employee</label>
+    <gender>Feminine</gender>
+    <label>Log</label>
     <nameField>
-        <label>Nom de Employee</label>
-        <type>Text</type>
+        <displayFormat>LOG-{000000}</displayFormat>
+        <label>Log Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Logs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>Error_Type__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>20</length>
+        <label>Error Type</label>
+        <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
+        <fullName>Error_Detail__c</fullName>
         <externalId>false</externalId>
-        <label>Email</label>
-        <required>false</required>
+        <label>Error Detail</label>
+        <length>32768</length>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
-    <fields>
-        <fullName>phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Phone</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+    <recordTypes>
+        <fullName>Error_Log</fullName>
+        <active>true</active>
+        <description>Used to trace errors.</description>
+        <label>Error Log</label>
+    </recordTypes>
 </CustomObject>

@@ -143,53 +143,47 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Contains the list of spam, blacklisted email addresses. Any case created with a from address matching a record in this object is flagged as spam by flow.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <gender>Masculine</gender>
-    <label>Employee</label>
+    <label>Case Spam Email</label>
     <nameField>
-        <label>Nom de Employee</label>
+        <label>Case Spam Email Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Case Spam Emails</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Active records only are evaluated by flow. Allows to keep deactivated records as archive.</description>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>20</length>
-        <required>false</required>
+        <inlineHelpText>Active records only are processed. Allows to keep deactivated records as archive.</inlineHelpText>
+        <label>Active</label>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
+        <fullName>Email_address_Market__c</fullName>
         <externalId>false</externalId>
-        <label>Email</label>
+        <label>Email address Market</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>phone__c</fullName>
-        <externalId>false</externalId>
-        <label>Phone</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market</valueSetName>
+        </valueSet>
     </fields>
 </CustomObject>

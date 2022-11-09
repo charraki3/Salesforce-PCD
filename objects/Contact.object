@@ -1,0 +1,4592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Contact_Compact_Layout</compactLayoutAssignment>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Country_Pictogram__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MobileInternationalFormat__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PhoneInternationalFormat__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Clients_Birthday__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Case_In_Progress__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Creation_POS__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <compactLayouts>
+        <fullName>Contact_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>CRM_Id__c</fields>
+        <fields>Country_Pictogram__c</fields>
+        <fields>Type__c</fields>
+        <fields>Email</fields>
+        <fields>MobilePhone</fields>
+        <label>Contact Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Axis__c</fullName>
+        <externalId>false</externalId>
+        <label>Axis</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fragrance</fullName>
+                    <default>false</default>
+                    <label>Fragrance</label>
+                </value>
+                <value>
+                    <fullName>MCD</fullName>
+                    <default>false</default>
+                    <label>MCD</label>
+                </value>
+                <value>
+                    <fullName>Foundation</fullName>
+                    <default>false</default>
+                    <label>Foundation</label>
+                </value>
+                <value>
+                    <fullName>Lips</fullName>
+                    <default>false</default>
+                    <label>Lips</label>
+                </value>
+                <value>
+                    <fullName>Other Makeup</fullName>
+                    <default>false</default>
+                    <label>Other Makeup</label>
+                </value>
+                <value>
+                    <fullName>Premium Skincare</fullName>
+                    <default>false</default>
+                    <label>Premium Skincare</label>
+                </value>
+                <value>
+                    <fullName>Skincare</fullName>
+                    <default>false</default>
+                    <label>Skincare</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Couture accessories</fullName>
+                    <default>false</default>
+                    <label>Couture accessories</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <description>Consumer postal address - city.</description>
+        <externalId>false</externalId>
+        <label>City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NFTA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NFTA</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Consumer Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PROSPECT</fullName>
+                    <default>false</default>
+                    <label>PROSPECT</label>
+                </value>
+                <value>
+                    <fullName>CONSUMER</fullName>
+                    <default>false</default>
+                    <label>CONSUMER</label>
+                </value>
+                <value>
+                    <fullName>GUEST</fullName>
+                    <default>false</default>
+                    <label>GUEST</label>
+                </value>
+                <value>
+                    <fullName>GENERIC</fullName>
+                    <default>false</default>
+                    <label>GENERIC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ASM_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>ASM_ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>CRM_Id__c</fullName>
+        <description>Customer unique identifier (8-digits autonumber) within Salesforce and for external systems.</description>
+        <displayFormat>{00000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>CRM Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FEMALE</fullName>
+                    <default>false</default>
+                    <label>FEMALE</label>
+                </value>
+                <value>
+                    <fullName>MALE</fullName>
+                    <default>false</default>
+                    <label>MALE</label>
+                </value>
+                <value>
+                    <fullName>UNKNOWN</fullName>
+                    <default>false</default>
+                    <label>UNKNOWN</label>
+                </value>
+                <value>
+                    <fullName>NEUTRAL</fullName>
+                    <default>false</default>
+                    <label>NEUTRAL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LineId__c</fullName>
+        <externalId>false</externalId>
+        <label>LineId</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Nb_MCD__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products MCD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region/State/Province</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Country__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>StateProvince</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>AB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>BC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>MB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>NB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>NL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>NT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>NS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>NU</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>ON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>PE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>QC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>SK</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CA</controllingFieldValue>
+                <valueName>YT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>แม่ฮ่องสอน</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อุทัยธานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อำนาจเจริญ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พิจิตร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ระนอง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สุโขทัย</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>มุกดาหาร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สิงห์บุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พะเยา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>น่าน</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ตราด</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อุตรดิตถ์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อ่างทอง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>บึงกาฬ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ยโสธร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>แพร่</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>กำแพงเพชร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ชัยนาท</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ตาก</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครนายก</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สตูล</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครพนม</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภาคใต้</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สระแก้ว</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สมุทรสงคราม</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>หนองบัวลำภู</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ลำพูน</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พังงา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>เพชรบูรณ์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ชุมพร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภาคตะวันออก</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ประจวบคีรีขันธ์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พัทลุง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>เพชรบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภาคเหนือ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สุรินทร์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>กระบี่</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ปราจีนบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ตรัง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>เลย</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ศรีสะเกษ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ยะลา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>กาฬสินธุ์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ปัตตานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ร้อยเอ็ด</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ชัยภูมิ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นราธิวาส</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พิษณุโลก</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สกลนคร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครสวรรค์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ลำปาง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>บุรีรัมย์</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>หนองคาย</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ลพบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สุพรรณบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>มหาสารคาม</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>จันทบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>กาญจนบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>เชียงราย</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครศรีธรรมราช</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สระบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ฉะเชิงเทรา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภาคตะวันออกเฉียงเหนือ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สุราษฎร์ธานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ราชบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>พระนครศรีอยุธยา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ระยอง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อุบลราชธานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สมุทรสาคร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภูเก็ต</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>อุดรธานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ขอนแก่น</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครปฐม</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>เชียงใหม่</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นครราชสีมา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ภาคกลาง</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สงขลา</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ชลบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>สมุทรปราการ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>ปทุมธานี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>นนทบุรี</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TH</controllingFieldValue>
+                <valueName>กรุงเทพมหานคร</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>AL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>AK</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>AZ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>AR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>CA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>CO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>CT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>DE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>DC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>FL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>GA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>HI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>ID</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>IL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>IN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>IA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>KS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>KY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>LA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>ME</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>MT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NJ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>NC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>ND</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>OH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>OK</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>OR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>PA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>RI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>SC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>SD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>TN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>TX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>UT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>VT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>VA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>WA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>WV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>WI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US</controllingFieldValue>
+                <valueName>WY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>01</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>02</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>03</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>04</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>05</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>06</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>07</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>08</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>09</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>10</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>11</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>12</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>14</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>15</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>16</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>17</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>18</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>19</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>20</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>21</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>22</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>23</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>24</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>25</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>26</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>27</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>28</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>29</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>30</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>31</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>32</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>33</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>34</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>35</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>36</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>37</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>38</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>39</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>40</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>41</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>42</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>43</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>44</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>45</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>46</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JP</controllingFieldValue>
+                <valueName>47</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <defaultValue>&quot;ACTIVE&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GDPR_DELETE</fullName>
+                    <default>false</default>
+                    <label>GDPR_DELETE</label>
+                </value>
+                <value>
+                    <fullName>ACTIVE</fullName>
+                    <default>true</default>
+                    <label>ACTIVE</label>
+                </value>
+                <value>
+                    <fullName>MERGED</fullName>
+                    <default>false</default>
+                    <label>MERGED</label>
+                </value>
+                <value>
+                    <fullName>DELETED</fullName>
+                    <default>false</default>
+                    <label>SUSPENDED</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Countries</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Nb_Lips__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Lips</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Channels__c</fullName>
+        <externalId>false</externalId>
+        <label>Channels</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>/ Counter</fullName>
+                    <default>false</default>
+                    <label>/ Counter</label>
+                </value>
+                <value>
+                    <fullName>/ Distributeur</fullName>
+                    <default>false</default>
+                    <label>/ Distributeur</label>
+                </value>
+                <value>
+                    <fullName>/ eCommerce</fullName>
+                    <default>false</default>
+                    <label>/ eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique</fullName>
+                    <default>false</default>
+                    <label>Boutique</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Counter</fullName>
+                    <default>false</default>
+                    <label>Boutique / Counter</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Distributeur / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Distributeur / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Distributeur / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Distributeur / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / eCommerce / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / eCommerce / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / eCommerce / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / eCommerce / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Distributeur / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Distributeur / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / eCommerce / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / eCommerce / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Institut</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Institut</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Institut / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Institut / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Espace / Institut / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Espace / Institut / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / Distributeur / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / Distributeur / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / Distributeur / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / Distributeur / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / eCommerce / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / eCommerce / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Boutique / Institut / In Pack</fullName>
+                    <default>false</default>
+                    <label>Boutique / Institut / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Counter</fullName>
+                    <default>false</default>
+                    <label>Counter</label>
+                </value>
+                <value>
+                    <fullName>Counter / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Counter / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Counter / In Pack</fullName>
+                    <default>false</default>
+                    <label>Counter / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Distributeur</fullName>
+                    <default>false</default>
+                    <label>Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Distributeur / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Distributeur / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Distributeur / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Distributeur / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>eCommerce</fullName>
+                    <default>false</default>
+                    <label>eCommerce</label>
+                </value>
+                <value>
+                    <fullName>eCommerce / Counter</fullName>
+                    <default>false</default>
+                    <label>eCommerce / Counter</label>
+                </value>
+                <value>
+                    <fullName>eCommerce / Distributeur</fullName>
+                    <default>false</default>
+                    <label>eCommerce / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>eCommerce / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>eCommerce / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace</fullName>
+                    <default>false</default>
+                    <label>Espace</label>
+                </value>
+                <value>
+                    <fullName>Espace / Counter</fullName>
+                    <default>false</default>
+                    <label>Espace / Counter</label>
+                </value>
+                <value>
+                    <fullName>Espace / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Espace / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Espace / Distributeur / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Espace / Distributeur / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Espace / Distributeur / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / Distributeur / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace / Distributeur / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / Distributeur / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Espace / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Espace / eCommerce / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Espace / eCommerce / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Espace / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace / Institut</fullName>
+                    <default>false</default>
+                    <label>Espace / Institut</label>
+                </value>
+                <value>
+                    <fullName>Espace / Institut / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Espace / Institut / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Espace / Institut / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / Institut / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Espace / Institut / In Pack</fullName>
+                    <default>false</default>
+                    <label>Espace / Institut / In Pack</label>
+                </value>
+                <value>
+                    <fullName>In Pack</fullName>
+                    <default>false</default>
+                    <label>In Pack</label>
+                </value>
+                <value>
+                    <fullName>Institut</fullName>
+                    <default>false</default>
+                    <label>Institut</label>
+                </value>
+                <value>
+                    <fullName>Institut / Distributeur</fullName>
+                    <default>false</default>
+                    <label>Institut / Distributeur</label>
+                </value>
+                <value>
+                    <fullName>Institut / eCommerce</fullName>
+                    <default>false</default>
+                    <label>Institut / eCommerce</label>
+                </value>
+                <value>
+                    <fullName>Institut / eCommerce / In Pack</fullName>
+                    <default>false</default>
+                    <label>Institut / eCommerce / In Pack</label>
+                </value>
+                <value>
+                    <fullName>Institut / In Pack</fullName>
+                    <default>false</default>
+                    <label>Institut / In Pack</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>BE</fullName>
+                    <default>false</default>
+                    <label>BE</label>
+                </value>
+                <value>
+                    <fullName>CN</fullName>
+                    <default>false</default>
+                    <label>CN</label>
+                </value>
+                <value>
+                    <fullName>CZ</fullName>
+                    <default>false</default>
+                    <label>CZ</label>
+                </value>
+                <value>
+                    <fullName>DE</fullName>
+                    <default>false</default>
+                    <label>DE</label>
+                </value>
+                <value>
+                    <fullName>DK</fullName>
+                    <default>false</default>
+                    <label>DK</label>
+                </value>
+                <value>
+                    <fullName>EN</fullName>
+                    <default>false</default>
+                    <label>EN</label>
+                </value>
+                <value>
+                    <fullName>en_US</fullName>
+                    <default>false</default>
+                    <label>en_US</label>
+                </value>
+                <value>
+                    <fullName>ES</fullName>
+                    <default>false</default>
+                    <label>ES</label>
+                </value>
+                <value>
+                    <fullName>FI</fullName>
+                    <default>false</default>
+                    <label>FI</label>
+                </value>
+                <value>
+                    <fullName>FR</fullName>
+                    <default>false</default>
+                    <label>FR</label>
+                </value>
+                <value>
+                    <fullName>GB</fullName>
+                    <default>false</default>
+                    <label>GB</label>
+                </value>
+                <value>
+                    <fullName>GR</fullName>
+                    <default>false</default>
+                    <label>GR</label>
+                </value>
+                <value>
+                    <fullName>HU</fullName>
+                    <default>false</default>
+                    <label>HU</label>
+                </value>
+                <value>
+                    <fullName>IE</fullName>
+                    <default>false</default>
+                    <label>IE</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>JP</fullName>
+                    <default>false</default>
+                    <label>JP</label>
+                </value>
+                <value>
+                    <fullName>KO</fullName>
+                    <default>false</default>
+                    <label>KO</label>
+                </value>
+                <value>
+                    <fullName>LU</fullName>
+                    <default>false</default>
+                    <label>LU</label>
+                </value>
+                <value>
+                    <fullName>NL</fullName>
+                    <default>false</default>
+                    <label>NL</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>PL</fullName>
+                    <default>false</default>
+                    <label>PL</label>
+                </value>
+                <value>
+                    <fullName>PT</fullName>
+                    <default>false</default>
+                    <label>PT</label>
+                </value>
+                <value>
+                    <fullName>RO</fullName>
+                    <default>false</default>
+                    <label>RO</label>
+                </value>
+                <value>
+                    <fullName>RU</fullName>
+                    <default>false</default>
+                    <label>RU</label>
+                </value>
+                <value>
+                    <fullName>SE</fullName>
+                    <default>false</default>
+                    <label>SE</label>
+                </value>
+                <value>
+                    <fullName>SK</fullName>
+                    <default>false</default>
+                    <label>SK</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>ZF</fullName>
+                    <default>false</default>
+                    <label>ZF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Zip Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address_1__c</fullName>
+        <description>Consumer postal address - line 1 of 2.</description>
+        <externalId>false</externalId>
+        <label>Address 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address_2__c</fullName>
+        <description>Consumer postal address - line 2 of 2.</description>
+        <externalId>false</externalId>
+        <label>Additional address information</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Age_Range__c</fullName>
+        <externalId>false</externalId>
+        <label>Age Range</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>30</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>50</fullName>
+                    <default>false</default>
+                    <label>50</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Birth_Day__c</fullName>
+        <description>Customer&apos;s birth day on two digits.</description>
+        <externalId>false</externalId>
+        <label>Birth Day</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Franchise__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact Franchise</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A003</fullName>
+                    <default>false</default>
+                    <label>Eau Sauvage</label>
+                </value>
+                <value>
+                    <fullName>A004</fullName>
+                    <default>false</default>
+                    <label>Poison</label>
+                </value>
+                <value>
+                    <fullName>A011</fullName>
+                    <default>false</default>
+                    <label>Fahrenheit</label>
+                </value>
+                <value>
+                    <fullName>A031</fullName>
+                    <default>false</default>
+                    <label>J&apos;Adore</label>
+                </value>
+                <value>
+                    <fullName>A034</fullName>
+                    <default>false</default>
+                    <label>Prestige</label>
+                </value>
+                <value>
+                    <fullName>A046</fullName>
+                    <default>false</default>
+                    <label>Diorsnow</label>
+                </value>
+                <value>
+                    <fullName>A049</fullName>
+                    <default>false</default>
+                    <label>Dior Addict</label>
+                </value>
+                <value>
+                    <fullName>A054</fullName>
+                    <default>false</default>
+                    <label>Capture</label>
+                </value>
+                <value>
+                    <fullName>A055</fullName>
+                    <default>false</default>
+                    <label>Diorskin</label>
+                </value>
+                <value>
+                    <fullName>A058</fullName>
+                    <default>false</default>
+                    <label>Rouge Dior</label>
+                </value>
+                <value>
+                    <fullName>A063</fullName>
+                    <default>false</default>
+                    <label>Maison ChristianDior</label>
+                </value>
+                <value>
+                    <fullName>A064</fullName>
+                    <default>false</default>
+                    <label>Dior Homme</label>
+                </value>
+                <value>
+                    <fullName>A067</fullName>
+                    <default>false</default>
+                    <label>Miss Dior</label>
+                </value>
+                <value>
+                    <fullName>A081</fullName>
+                    <default>false</default>
+                    <label>Diorshow</label>
+                </value>
+                <value>
+                    <fullName>A086</fullName>
+                    <default>false</default>
+                    <label>Sauvage</label>
+                </value>
+                <value>
+                    <fullName>A087</fullName>
+                    <default>false</default>
+                    <label>One Essential</label>
+                </value>
+                <value>
+                    <fullName>A089</fullName>
+                    <default>false</default>
+                    <label>HLIFE</label>
+                </value>
+                <value>
+                    <fullName>A090</fullName>
+                    <default>false</default>
+                    <label>JOY</label>
+                </value>
+                <value>
+                    <fullName>A091</fullName>
+                    <default>false</default>
+                    <label>Specific lines</label>
+                </value>
+                <value>
+                    <fullName>A094</fullName>
+                    <default>false</default>
+                    <label>Couture</label>
+                </value>
+                <value>
+                    <fullName>A095</fullName>
+                    <default>false</default>
+                    <label>Dior Skin Essentials</label>
+                </value>
+                <value>
+                    <fullName>A096</fullName>
+                    <default>false</default>
+                    <label>L’Or de Vie</label>
+                </value>
+                <value>
+                    <fullName>A078</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Benefit</label>
+                </value>
+                <value>
+                    <fullName>A092</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CELINE</label>
+                </value>
+                <value>
+                    <fullName>A005</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>DNU-Combined</label>
+                </value>
+                <value>
+                    <fullName>A001</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>DNU-Créations M Dior</label>
+                </value>
+                <value>
+                    <fullName>F00Z</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>F00Z</label>
+                </value>
+                <value>
+                    <fullName>A093</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FENTY</label>
+                </value>
+                <value>
+                    <fullName>A032</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>J&apos;Adore A032</label>
+                </value>
+                <value>
+                    <fullName>A088</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Louis Vuitton</label>
+                </value>
+                <value>
+                    <fullName>A039</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Non affecté</label>
+                </value>
+                <value>
+                    <fullName>A102</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sauvage A102</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RegionOld__c</fullName>
+        <externalId>false</externalId>
+        <label>RegionOld</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Adr1_conga__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.PersonContact.City__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Adr1 conga</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Birth_Year__c</fullName>
+        <description>Customer&apos;s birth year on four digits.</description>
+        <externalId>false</externalId>
+        <label>Birth Year</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CosmetoZip__c</fullName>
+        <description>Technical Field for CosmetoProcess</description>
+        <externalId>false</externalId>
+        <formula>Zip_Code__c 
+/* &quot;WAITING FOR PACKAGE&quot; */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CosmetoZip</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_SMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in SMS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Targetable__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+			AND(
+						OR(	NOW() &gt;=   Last_Contacted_Date__c + 15, ISNULL(Last_Contacted_Date__c)),  Campaign_Member__r.Campaign__r.IsActive__c = false
+							),
+								true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Targetable</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Birth_Month__c</fullName>
+        <description>Customer&apos;s birth month on two digits.</description>
+        <externalId>false</externalId>
+        <label>Birth Month</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CRM_Id_Text__c</fullName>
+        <description>Used as an external ID in order to update Consumers records coming from inbound flow which don&apos;t have any ID in Salesforce yet</description>
+        <externalId>true</externalId>
+        <label>CRM Id Text</label>
+        <length>8</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CosmetoCity__c</fullName>
+        <description>Technical Field for Cosmeto Process</description>
+        <externalId>false</externalId>
+        <formula>City__c 
+/*  &quot;WAITING FOR PACKAGE&quot; */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CosmetoCity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nb_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Services</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nb_Skincare__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Skincare</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Creation_POS__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Creation POS</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Nb_Fragrance__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Fragrance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nb_Open_Case__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Calculated by a Process Builder</description>
+        <externalId>false</externalId>
+        <label>Nb Open Case</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NumJobTalend__c</fullName>
+        <externalId>false</externalId>
+        <label>NumJobTalend</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in Call</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Satisfaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Satisfaction</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turnover_12M__c</fullName>
+        <description>For ex , for GSA &gt; Calculated in One Base when there is a new Sale or on the 1st every month: total in local currency of ecommerce and POS sales on the last 12 rolling months, minus returns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last 12M</inlineHelpText>
+        <label>Turnover 12M</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turnover_MCD__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover MCD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VIC_Customer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;Platinum&apos;),
+(ISPICKVAL(Market__c ,&apos;FR&apos;)||ISPICKVAL( Market__c ,&apos;GB&apos;)
+)
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;DE&apos;), Turnover_12M__c &gt; 800
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;FR&apos;), Turnover_12M__c &gt; 1400
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;ES&apos;), Turnover_12M__c &gt; 700
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;IT&apos;), Turnover_12M__c &gt; 700
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;BE&apos;), Turnover_12M__c &gt; 600
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;NL&apos;), Turnover_12M__c &gt; 600
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL(Loyalty_Level__c ,&apos;&apos;),
+ISPICKVAL(Market__c ,&apos;CH&apos;), Turnover_12M__c &gt; 800
+)
+,TRUE
+,IF(
+AND(
+ISPICKVAL( PredictiveSegmentation__c , &apos;VIC Potential&apos;),OR(
+ISPICKVAL(Market__c ,&apos;GB&apos;),
+ISPICKVAL(Market__c ,&apos;FR&apos;),
+ISPICKVAL(Market__c ,&apos;DE&apos;),
+ISPICKVAL(Market__c ,&apos;CH&apos;),
+ISPICKVAL(Market__c ,&apos;ES&apos;),
+ISPICKVAL(Market__c ,&apos;IT&apos;),
+ISPICKVAL(Market__c ,&apos;BE&apos;),
+ISPICKVAL(Market__c ,&apos;NL&apos;)))
+,TRUE
+,FALSE
+)
+)
+)
+)
+)
+)
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>VIC Customer (CS)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Attachment_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Filled by Consumer Inbound flow. Contains the BC (Beauty Counselor) attached to this customer.</description>
+        <externalId>false</externalId>
+        <label>Attachment BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CosmetoRegion__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Region__c)
+/*  &quot;WAITING FOR PACKAGE&quot; */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CosmetoRegion</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Creation_Date__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <description>Customer creation date; is sent by external systems, but if the customer is created in Salesforce, default value is set to NOW().</description>
+        <externalId>false</externalId>
+        <label>Creation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Crypted_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Crypted Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Global_Opt_In__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(Opt_in_Phone__c = TRUE, Opt_in_Email__c = TRUE, Opt_in_SMS__c = TRUE, Opt_in_Social_Messaging__c= TRUE, Opt_in_Social_Network_Line__c= TRUE ),TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Global Opt-In</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LogoHighLight__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Type__c  ,
+&quot;PROSPECT&quot;, 
+ IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/user_orange.png&quot;,&quot;PROSPECT&quot;),
+&quot;CONSUMER&quot;, IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/set_security_question.png&quot;,&quot;CONSUMER&quot;),
+IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/user_red.png&quot;,&quot;GUEST&quot;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LogoHighLight</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>12E - Explorer</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12GC - Good Client</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>12P - Platinum</label>
+                </value>
+                <value>
+                    <fullName>White</fullName>
+                    <default>false</default>
+                    <label>White</label>
+                </value>
+                <value>
+                    <fullName>Silver</fullName>
+                    <default>false</default>
+                    <label>Silver</label>
+                </value>
+                <value>
+                    <fullName>Gold</fullName>
+                    <default>false</default>
+                    <label>Gold</label>
+                </value>
+                <value>
+                    <fullName>Platinum</fullName>
+                    <default>false</default>
+                    <label>Platinum</label>
+                </value>
+                <value>
+                    <fullName>Pearl</fullName>
+                    <default>false</default>
+                    <label>Pearl</label>
+                </value>
+                <value>
+                    <fullName>Crystal</fullName>
+                    <default>false</default>
+                    <label>Crystal</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>Disqualified</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>Reactivated</label>
+                </value>
+                <value>
+                    <fullName>S</fullName>
+                    <default>false</default>
+                    <label>STAFF</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>false</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+                <value>
+                    <fullName>Black Gold</fullName>
+                    <default>false</default>
+                    <label>Black Gold</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Nb_Foundation__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Foundation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tel_Area_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Tel Area Code</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turnover_Lips__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Lips</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attachement_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Attachment BC</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Attachment_POS__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Attachment POS</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Contacts (Attachment POS)</relationshipLabel>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BirthDayChange__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Filled by process builder when ambassador change the birthdate</description>
+        <externalId>false</externalId>
+        <label>BirthDayChange</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CosmetoAddress__c</fullName>
+        <description>Technical Field for CosmetoProcess</description>
+        <externalId>false</externalId>
+        <formula>/*Address_1__c*/
+Address_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CosmetoAddress</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CosmetoCountry__c</fullName>
+        <description>Techical Fields for CosmetoProcess</description>
+        <externalId>false</externalId>
+        <formula>TEXT( Country__c )
+/* &quot;TEXT( Country__c ) */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CosmetoCountry</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_contactable__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR( Opt_in_Email__c = True,  Opt_in_Mailing__c = True,  Opt_in_SMS__c = True, Opt_in_Phone__c = True, 	Opt_in_Social_Messaging__c = True)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is contactable?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Case_Date__c</fullName>
+        <description>Filter: Case Origine &lt;&gt; Internal ASM OR Spam OR Transferred
+Not editable</description>
+        <externalId>false</externalId>
+        <label>Last Case Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Sale_s_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>GC-98</description>
+        <externalId>false</externalId>
+        <label>Last Sale&apos;s BC</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Last_Survey_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last Survey BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipLabel>Contacts (Last Survey BC)</relationshipLabel>
+        <relationshipName>Contacts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Nb_Accessories__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Accessories</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Mailing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in Mailing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Typology__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Typology</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>E-Commerce</fullName>
+                    <default>false</default>
+                    <label>E-Commerce</label>
+                </value>
+                <value>
+                    <fullName>Multichannel</fullName>
+                    <default>false</default>
+                    <label>Multichannel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Amount_required__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount Required</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApentencyScore1__c</fullName>
+        <externalId>false</externalId>
+        <label>Apentency Score 1</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApentencyScore2__c</fullName>
+        <externalId>false</externalId>
+        <label>Apentency Score 2</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApentencyScore3__c</fullName>
+        <externalId>false</externalId>
+        <label>Apentency Score 3</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApentencyScore4__c</fullName>
+        <externalId>false</externalId>
+        <label>Apentency Score 4</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Member__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaign Member</label>
+        <referenceTo>CampaignMember__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Creation_POS_Id__c</fullName>
+        <description>Creation POS unique Id; is used to populate the Store lookup Creation_Store__c.</description>
+        <externalId>false</externalId>
+        <label>Creation POS Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Name_Kanji__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Name Kanji</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nb_Other_Makeup__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Other Makeup</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nb_of_Purchases__c</fullName>
+        <externalId>false</externalId>
+        <label>Nb of Purchases</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_Expiring__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Status Expiring</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Winparf_Id_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Winparf Id Text</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_In_Progress__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Nb_Open_Case__c &gt;0, true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case In Progress</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Clients_Birthday__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    MONTH(TODAY())= Birth_Month__c &amp;&amp; DAY(TODAY())= Birth_Day__c
+    ,
+    IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000000MfkD&amp;operationContext=CHATTER&amp;contentId=05T090000053S1R&quot;, &quot;Joyeux anniversaire&quot;, 30, 30)
+    ,
+    TEXT(Birth_Month__c) &amp;&quot;/&quot;&amp; TEXT(Birth_Day__c)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client&apos;s Birthday</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Creation_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Creation Channel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>01</fullName>
+                    <default>false</default>
+                    <label>Local Market</label>
+                </value>
+                <value>
+                    <fullName>06</fullName>
+                    <default>false</default>
+                    <label>POS</label>
+                </value>
+                <value>
+                    <fullName>08</fullName>
+                    <default>false</default>
+                    <label>Ecommerce</label>
+                </value>
+                <value>
+                    <fullName>09</fullName>
+                    <default>false</default>
+                    <label>Customer service</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>First_Name_Kanji__c</fullName>
+        <externalId>false</externalId>
+        <label>First Name Kanji</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Infoware_Id_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Infoware Id Text</label>
+        <length>70</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Last_Sales_BC__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Last_Sale_s_BC__c = $User.Id , 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Last Sales BC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_NPS_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey NPS Score</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TechDataRecovery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TechDataRecovery</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VIC_Checked_date__c</fullName>
+        <description>Technical filed used for Flow purpose</description>
+        <externalId>false</externalId>
+        <label>VIC Checked date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Attachment_POS_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Attachment POS Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country_Pictogram__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Market__c,
+&quot;FR&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/0680900000FWGBg&quot;,&quot;France&quot;),
+&quot;IT&quot;, IMAGE($CustomMetadata.Flag__mdt.IT.URL__c,&quot;Italia&quot;),
+&quot;ES&quot;, IMAGE($CustomMetadata.Flag__mdt.ES.URL__c,&quot;Spain&quot;),
+&quot;RU&quot;, IMAGE($CustomMetadata.Flag__mdt.RU.URL__c,&quot;Russia&quot;),
+&quot;PT&quot;, IMAGE($CustomMetadata.Flag__mdt.PT.URL__c,&quot;Portugal&quot;),
+&quot;GB&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/0680900000FWGXO&quot;,&quot;United Kingdom&quot;),
+&quot;NL&quot;, IMAGE($CustomMetadata.Flag__mdt.NL.URL__c,&quot;Netherlands&quot;),
+&quot;BE&quot;, IMAGE($CustomMetadata.Flag__mdt.BE.URL__c,&quot;Belgium&quot;),
+&quot;GR&quot;, IMAGE($CustomMetadata.Flag__mdt.GR.URL__c,&quot;Greece&quot;),
+&quot;PL&quot;, IMAGE($CustomMetadata.Flag__mdt.PL.URL__c,&quot;Poland&quot;),
+&quot;SE&quot;, IMAGE($CustomMetadata.Flag__mdt.SE.URL__c,&quot;Sweden&quot;),
+&quot;CH&quot;, IMAGE($CustomMetadata.Flag__mdt.CH.URL__c,&quot;Switzerland&quot;),
+&quot;RO&quot;, IMAGE($CustomMetadata.Flag__mdt.RO.URL__c,&quot;Romania&quot;),
+&quot;IE&quot;, IMAGE($CustomMetadata.Flag__mdt.IE.URL__c,&quot;Ireland&quot;),
+&quot;DK&quot;, IMAGE($CustomMetadata.Flag__mdt.DK.URL__c,&quot;Denmark&quot;),
+&quot;AT&quot;, IMAGE($CustomMetadata.Flag__mdt.AT.URL__c,&quot;Austria&quot;),
+&quot;DE&quot;, IMAGE($CustomMetadata.Flag__mdt.DE.URL__c,&quot;Germany&quot;),
+&quot;FI&quot;, IMAGE($CustomMetadata.Flag__mdt.FI.URL__c,&quot;Finland&quot;),
+&quot;LU&quot;, IMAGE($CustomMetadata.Flag__mdt.LU.URL__c,&quot;Luxembourg&quot;),
+&quot;CA&quot;, IMAGE($CustomMetadata.Flag__mdt.CA.URL__c,&quot;Canada&quot;),
+&quot;US&quot;, IMAGE($CustomMetadata.Flag__mdt.US.URL__c,&quot;USA&quot;),
+&quot;BR&quot;, IMAGE($CustomMetadata.Flag__mdt.BR.URL__c,&quot;Brazil&quot;),
+&quot;AE&quot;, IMAGE($CustomMetadata.Flag__mdt.EA.URL__c,&quot;United Arab Emirates&quot;),
+&quot;CN&quot;, IMAGE($CustomMetadata.Flag__mdt.CN.URL__c,&quot;China&quot;),
+&quot;HK&quot;, IMAGE($CustomMetadata.Flag__mdt.HK.URL__c,&quot;Hong Kong&quot;),
+&quot;KR&quot;, IMAGE($CustomMetadata.Flag__mdt.KR.URL__c,&quot;South Korea&quot;),
+&quot;JP&quot;, IMAGE($CustomMetadata.Flag__mdt.JP.URL__c,&quot;Japan&quot;),
+&quot;SG&quot;, IMAGE($CustomMetadata.Flag__mdt.SG.URL__c,&quot;Singapore&quot;),
+&quot;TW&quot;, IMAGE($CustomMetadata.Flag__mdt.TW.URL__c,&quot;Taiwan&quot;),
+&quot;ID&quot;, IMAGE($CustomMetadata.Flag__mdt.ID.URL__c,&quot;Indonesia&quot;),
+&quot;MY&quot;, IMAGE($CustomMetadata.Flag__mdt.MY.URL__c,&quot;Malaysia&quot;),
+&quot;NO&quot;, IMAGE($CustomMetadata.Flag__mdt.NO.URL__c,&quot;Norway&quot;),
+&quot;AU&quot;, IMAGE($CustomMetadata.Flag__mdt.AU.URL__c,&quot;Australia&quot;),
+&quot;CZ&quot;, IMAGE($CustomMetadata.Flag__mdt.CZ.URL__c,&quot;Czech Republic&quot;),
+&quot;HU&quot;, IMAGE($CustomMetadata.Flag__mdt.HU.URL__c,&quot;Hungary&quot;),
+&quot;SK&quot;, IMAGE($CustomMetadata.Flag__mdt.SK.URL__c,&quot;Slovakia&quot;),
+&quot;INT&quot;, IMAGE($CustomMetadata.Flag__mdt.INT.URL__c,&quot;International&quot;),
+IMAGE($CustomMetadata.Flag__mdt.INC.URL__c,&quot;Inconnu&quot;)
+)</formula>
+        <label>Country Flag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Typology__c</fullName>
+        <defaultValue>&quot;Prospect&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer Typology</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>true</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Existing</fullName>
+                    <default>false</default>
+                    <label>Existing</label>
+                </value>
+                <value>
+                    <fullName>Churner</fullName>
+                    <default>false</default>
+                    <label>Churner</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ecommerce_Id_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Commerce Id Text</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_Makeup_sessions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Makeup sessions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Identity_verified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Identity verified</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Store_Survey__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last Store Survey</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Contacts (Last Store Survey)</relationshipLabel>
+        <relationshipName>Contacts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Modification_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Modification Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Turnover_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Services</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turnover_Skincare__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Skincare</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VIC_uncheked_date__c</fullName>
+        <description>Technical field used for flow purpose</description>
+        <externalId>false</externalId>
+        <label>VIC uncheked date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Attachment_BC_Text__c</fullName>
+        <description>Technical field containing Attachment BC&apos;s Id if Consumer inbound flow was unable to match the lookup with a related BC record.</description>
+        <externalId>false</externalId>
+        <label>Attachment BC Text</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Average_User_Spent__c</fullName>
+        <description>[Average User Spent] 
+For ex , for GSA &gt; Calculated in One Base when there is a new Sale or on the 1st every month: average amount spent by a client per year (POS and ecommerce sales), minus returned products.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last 12M</inlineHelpText>
+        <label>Average User Spent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Activity_Date__c</fullName>
+        <description>Not editable</description>
+        <externalId>false</externalId>
+        <label>Last Activity Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Recipient_Adobe_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Recipient Adobe ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recommendation_Url__c</fullName>
+        <externalId>false</externalId>
+        <label>Recommendation Url</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Technical_Field_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Technical Field BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingCN__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;CN&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;亲爱的女士 &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;亲爱的夫人 &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;亲爱的小姐 &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;亲爱的医生 &apos; + LastName + &apos;,&apos;,&apos;亲爱的博士 &apos; + LastName + &apos;,&apos;),
+&apos;PROF&apos;,&apos;亲爱的教授 &apos; + LastName + &apos;,&apos;,
+&apos;COMPANY&apos;,&apos;公司名称 &apos;,
+&apos;LADY&apos;,&apos;亲爱的女士 &apos;,
+&apos;LORD&apos;,&apos;亲爱的先生，&apos;,
+&apos;SIR&apos;,&apos;亲爱的先生，&apos;,
+&apos;DAME&apos;,&apos;亲爱的，&apos;,
+&apos;PRINCE&apos;,&apos;亲爱的，&apos;,
+&apos;PRINCESS&apos;,&apos;亲爱的，&apos;,
+&apos;MR_AND_MS&apos;,&apos;亲爱的先生和夫人 &apos;+ LastName + &apos;,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingCN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingDE__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;DE&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Sehr geehrte Frau &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Sehr geehrtes Fräulein &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Sehr geehrter Herr &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Sehr geehrter Herr Doktor &apos;+LastName +&apos;,&apos;,&apos;Sehr geehrte Frau Doktor &apos;+LastName+&apos;,&apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Sehr geehrter Herr Professor &apos; + LastName + &apos;,&apos;,&apos;Sehr geehrte Frau Professor &apos; + LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;Unternehmen &apos; + Account.Name + &apos;,&apos;,
+&apos;LADY&apos;,&apos;Sehr geehrte Frau,&apos;,
+&apos;LORD&apos;,&apos;Sehr geehrter Herr,&apos;,
+&apos;SIR&apos;,&apos;Sehr geehrte Frau,&apos;,
+&apos;DAME&apos;,&apos;Sehr, &apos;,
+&apos;PRINCE&apos;,&apos;Sehr,&apos;,
+&apos;PRINCESS&apos;,&apos;Sehr, &apos;,
+&apos;MR_AND_MS&apos;,&apos;Sehr, &apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingDE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingES__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;ES&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Estimada Señora &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Estimada Señora &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Estimado Señor &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Estimada Doctora &apos; + LastName + &apos;,&apos;, &apos;Estimado Doctor &apos; + LastName + &apos;,&apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Estimada Doctora &apos; + LastName + &apos;,&apos;,&apos;Estimado Doctor &apos; + LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;Empressa &apos; + Account.Name + &apos;,&apos;,
+&apos;LADY&apos;,&apos;Estimada Señora &apos; + LastName + &apos;,&apos;,
+&apos;LORD&apos;,&apos;Estimado Señor &apos; + LastName + &apos;,&apos;,
+&apos;SIR&apos;,&apos;Estimado Señor &apos; + LastName + &apos;,&apos;,
+&apos;DAME&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;PRINCE&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;PRINCESS&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;MR_AND_MS&apos;,&apos;Estimado, Estimada,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingES</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingFr__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;FR&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;Chère Madame &apos; + LastName +&apos;,&apos;,
+&apos;MRS&apos;,&apos;Chère Madame &apos;  +  LastName +&apos;,&apos;,
+&apos;MISS&apos;,&apos;Chère Mademoiselle &apos; + LastName+&apos;,&apos;,
+&apos;MR&apos;,&apos;Cher Monsieur &apos;+ LastName +&apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Chère Docteur,&apos;,&apos;Cher Docteur,&apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Chère Madame &apos;+LastName+&apos;,&apos;,&apos;Cher Monsieur &apos;+ LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;Société &apos; + Account.Name + &apos;,&apos;,
+&apos;LADY&apos;,&apos;Chère Madame,&apos;,
+&apos;LORD&apos;,&apos;Cher Monsieur,&apos;,
+&apos;SIR&apos;,&apos;Cher Monsieur,&apos;,
+&apos;DAME&apos;,&apos;Cher, Chère,&apos;,
+&apos;PRINCE&apos;,&apos;Cher, Chère,&apos;,
+&apos;PRINCESS&apos;,&apos;Cher, Chère,&apos;,
+&apos;MR_AND_MS&apos;,&apos;Cher, Chère,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingFR</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingGB__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;EN&quot;) || ISPICKVAL(Language__c,&quot;US&quot;) || ISPICKVAL(Language__c,&quot;en_US&quot;) || ISPICKVAL(Language__c,&quot;ZF&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;Dear Ms &apos; + LastName + &apos;,&apos;,
+&apos;MRS&apos;,&apos;Dear Mrs &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Dear Miss &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Dear Mr &apos; + LastName + &apos;&apos;,
+&apos;DR&apos;,&apos;Dear Doctor &apos; + LastName + &apos;,&apos;,
+&apos;PROF&apos;,&apos;Dear Professor  &apos; + LastName + &apos;,&apos;,
+&apos;COMPANY&apos;,Account.Name + &apos;,&apos;,
+&apos;LADY&apos;,&apos;Dear Lady,&apos;,
+&apos;LORD&apos;,&apos;Dear Sir,&apos;,
+&apos;SIR&apos;,&apos;Dear Sir,&apos;,
+&apos;DAME&apos;,&apos;Dear, &apos;,
+&apos;PRINCE&apos;,&apos;Dear, &apos;,
+&apos;PRINCESS&apos;,&apos;Dear, &apos;,
+&apos;MR_AND_MS&apos;,&apos;Dear Mr. and Mrs &apos; + LastName + &apos;,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingGB</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingIT__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;IT&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Gentile Signora &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Gentile Signorina &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Gentile Signor &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Gentile Dottoressa &apos; + LastName + &apos;,&apos;,&apos;Gentile Dottor &apos; + LastName + &apos;,&apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Gentile Professoressa &apos; + LastName + &apos;,&apos;, &apos;Gentile Professore &apos; + LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;Impressa &apos; + Account.Name +&apos;,&apos;,
+&apos;LADY&apos;,&apos;Gentile Signora &apos; + LastName + &apos;,&apos;,
+&apos;LORD&apos;,&apos;Gentile Signor &apos; + LastName + &apos;,&apos;,
+&apos;SIR&apos;,&apos;Gentile Signor &apos; + LastName + &apos;,&apos;,
+&apos;DAME&apos;,&apos;Gentile, &apos;,
+&apos;PRINCE&apos;,&apos;Gentile,&apos;,
+&apos;PRINCESS&apos;,&apos;Gentile,&apos;,
+&apos;MR_AND_MS&apos;,&apos;Gentile,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingIT</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingJP__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(OR(ISPICKVAL(Language__c,&quot;JP&quot;), ISPICKVAL(Market__c, &quot;JP&quot;)), ISPICKVAL(Salutation, &apos;COMPANY&apos;)), FirstName + &apos; &apos; + LastName + &apos; &apos; + &apos;御中&apos;,
+IF(AND(OR(ISPICKVAL(Language__c,&quot;JP&quot;), ISPICKVAL(Market__c, &quot;JP&quot;)), NOT(ISPICKVAL(Salutation, &apos;COMPANY&apos;))),  Last_Name_Kanji__c + &apos; &apos; + &apos;様&apos;,
+&apos;&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingJP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingNL__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;NL&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Geachte Mevrouw &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Geachte Juffrouw &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Geachte Heer &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,&apos;Geachte Doctor &apos; + LastName + &apos;,&apos;,
+&apos;PROF&apos;,&apos;Geachte Professor + Last, name&apos;,
+&apos;COMPANY&apos;,&apos;Bedrijf &apos; + Account.Name+&apos;,&apos;,
+&apos;LADY&apos;,&apos;Geachte Mevrouw &apos; + LastName + &apos;,&apos;,
+&apos;LORD&apos;,&apos;Geachte Heer &apos; + LastName + &apos;,&apos;,
+&apos;SIR&apos;,&apos;Geachte Heer &apos; + LastName + &apos;,&apos;,
+&apos;DAME&apos;,&apos;Geachte,&apos;,
+&apos;PRINCE&apos;,&apos;Geachte,&apos;,
+&apos;PRINCESS&apos;,&apos;Geachte,&apos;,
+&apos;MR_AND_MS&apos;,&apos;Geachte,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingNL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingPT__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;PT&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Estimada Senhora &apos; + LastName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Estimada Senhora &apos; + LastName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Estimado Senhor &apos; + LastName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Estimada Senhora Doutora &apos; + LastName + &apos;,&apos;,&apos;Estimado Senhor Doutor &apos; + LastName + &apos;, &apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Estimada Senhora Professora &apos; + LastName + &apos;,&apos;,&apos;Estimado Senhor Professor &apos; + LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;Empresa &apos;+ Account.Name +&apos;,&apos;,
+&apos;LADY&apos;,&apos;Estimada Senhora &apos; + LastName + &apos;,&apos;,
+&apos;LORD&apos;,&apos;Estimado Senhor &apos; + LastName + &apos;,&apos;,
+&apos;SIR&apos;,&apos;Estimado Senhor &apos; + LastName + &apos;,&apos;,
+&apos;DAME&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;PRINCE&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;PRINCESS&apos;,&apos;Estimado, Estimada,&apos;,
+&apos;MR_AND_MS&apos;,&apos;Estimado, Estimada,&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingPT</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TemplateGreetingRU__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Language__c,&quot;RU&quot;),
+CASE(Salutation,
+&apos;MS&apos;,&apos;&apos;,
+&apos;MRS&apos;,&apos;Уважаемая &apos; + FirstName + &apos;,&apos;,
+&apos;MISS&apos;,&apos;Уважаемая &apos; + FirstName + &apos;,&apos;,
+&apos;MR&apos;,&apos;Уважаемый &apos; + FirstName + &apos;,&apos;,
+&apos;DR&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;Уважаемая Госпожа &apos; + LastName + &apos;,&apos;,&apos;Уважаемый Господин &apos; + LastName + &apos;,&apos;),
+&apos;PROF&apos;,IF(ISPIcKVAL( Gender__c ,&quot;FEMALE&quot;),&apos;важаемая Госпожа &apos; + LastName + &apos;,&apos;,&apos;Уважаемый Господин &apos; + LastName + &apos;,&apos;),
+&apos;COMPANY&apos;,&apos;компания,&apos;,
+&apos;LADY&apos;,&apos;Уважаемая &apos; + FirstName + &apos;,&apos;,
+&apos;LORD&apos;,&apos;Уважаемый &apos; + FirstName + &apos;,&apos;,
+&apos;SIR&apos;,&apos;Уважаемый &apos; + FirstName + &apos;,&apos;,
+&apos;DAME&apos;,&apos;NA&apos;,
+&apos;PRINCE&apos;,&apos;NA&apos;,
+&apos;PRINCESS&apos;,&apos;NA&apos;,
+&apos;MR_AND_MS&apos;,&apos;NA&apos;,
+&quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TemplateGreetingRU</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Turnover_Fragrance__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Fragrance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_Skincare_sessions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Skincare sessions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Contacted_Date__c</fullName>
+        <description>Last contact date whatever the channel (Clienteling, customer care, marketing campaign in Adobe, satisfaction survey)</description>
+        <externalId>false</externalId>
+        <formula>IF(
+				AND(
+								 ISBLANK(Last_Case_Date__c ),
+							  ISBLANK(Last_Contact_Date_NPS__c ),
+								 ISBLANK(Last_Contact_Date_Marketing__c),
+								 ISBLANK(Last_Activity_Date__c )
+								),
+				NULL,
+				 NOW() -  MIN(
+     NOW() -  BLANKVALUE(Last_Case_Date__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+					NOW() -  BLANKVALUE(Last_Contact_Date_NPS__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+					NOW() -  BLANKVALUE(Last_Contact_Date_Marketing__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+					NOW() -  BLANKVALUE(Last_Activity_Date__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;))
+					)
+				 )</formula>
+        <label>Last Contacted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Nb_Premium_Skincare__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Products Premium Skincare</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_SMS_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SMS Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recommended Product 1</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recommended Product 2</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contacts (Recommended Product 2)</relationshipLabel>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recommended Product 3</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contacts (Recommended Product 3)</relationshipLabel>
+        <relationshipName>Contacts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recommended Product 4</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Contacts (Recommended Product 4)</relationshipLabel>
+        <relationshipName>Contacts3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Turnover_Foundation__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Foundation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Winparf_Id_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Winparf Id External</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>BirthdateConcatenate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (NOT(Birth_Year__c=0)),
+TEXT(Birth_Day__c) &amp;&quot;/&quot;&amp; TEXT(Birth_Month__c) &amp;&quot;/&quot;&amp; TEXT(Birth_Year__c),
+			TEXT(Birth_Day__c) &amp;&quot;/&quot;&amp; TEXT(Birth_Month__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Birthdate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Creation_Sub_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Creation Sub Channel</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_Fragrance_sessions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fragrance sessions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Infoware_Id_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Infoware Id External</label>
+        <length>70</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Modification_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Modification Channel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>01</fullName>
+                    <default>false</default>
+                    <label>01</label>
+                </value>
+                <value>
+                    <fullName>02</fullName>
+                    <default>false</default>
+                    <label>02</label>
+                </value>
+                <value>
+                    <fullName>03</fullName>
+                    <default>false</default>
+                    <label>03</label>
+                </value>
+                <value>
+                    <fullName>04</fullName>
+                    <default>false</default>
+                    <label>04</label>
+                </value>
+                <value>
+                    <fullName>05</fullName>
+                    <default>false</default>
+                    <label>05</label>
+                </value>
+                <value>
+                    <fullName>06</fullName>
+                    <default>false</default>
+                    <label>06</label>
+                </value>
+                <value>
+                    <fullName>07</fullName>
+                    <default>false</default>
+                    <label>07</label>
+                </value>
+                <value>
+                    <fullName>08</fullName>
+                    <default>false</default>
+                    <label>08</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>99</fullName>
+                    <default>false</default>
+                    <label>99</label>
+                </value>
+                <value>
+                    <fullName>SCPCD</fullName>
+                    <default>false</default>
+                    <label>SCPCD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recommendation_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Recommendation Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Promotor</fullName>
+                    <default>false</default>
+                    <label>Image promotor</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Detractor</fullName>
+                    <default>false</default>
+                    <label>Detractor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Turnover_Accessories__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Accessories</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cosmetovigilance_Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Cosmetovigilance Case/s</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>⭐️</fullName>
+                    <default>false</default>
+                    <label>⭐️</label>
+                </value>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cosmetovigilance_Form__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cosmetovigilance Form</label>
+        <referenceTo>Cosmetovigilance_Form__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ecommerce_Id_External__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Commerce Id External</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Contact_Date_NPS__c</fullName>
+        <description>Not editable</description>
+        <externalId>false</externalId>
+        <label>Last Contact Date NPS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_Transaction_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Transaction Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Charms_Points__c</fullName>
+        <description>Number of Charms in the new loyalty program / although not a key indicator for BCs</description>
+        <externalId>false</externalId>
+        <label>Loyalty Charms Points</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Email_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Email Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Phone_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Call Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Turnover_Other_Makeup__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Other Makeup</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Transaction_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>First Transaction Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Nb_of_Transactions_12M__c</fullName>
+        <description>For ex , for GSA &gt; Calculated in One Base when there is a new Sale or on the 1st every month: nb of commerce and POS sales on the last 12 rolling months, with amount &gt; 0.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last 12M</inlineHelpText>
+        <label>Nb of Transactions 12M</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PredictiveSegmentation__c</fullName>
+        <externalId>false</externalId>
+        <label>Predictive Segmentation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VIC</fullName>
+                    <default>false</default>
+                    <label>VIC</label>
+                </value>
+                <value>
+                    <fullName>VIC Potential</fullName>
+                    <default>false</default>
+                    <label>VIC Potential</label>
+                </value>
+                <value>
+                    <fullName>Multi Timer</fullName>
+                    <default>false</default>
+                    <label>Multi Timer</label>
+                </value>
+                <value>
+                    <fullName>One Timer</fullName>
+                    <default>false</default>
+                    <label>One Timer</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Global_Messaging_Opt_in__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(Market__c,&apos;JP&apos;), false,
+
+IF (ISPICKVAL(Market__c,&apos;TW&apos;),
+IF(AND(Opt_in_Social_Network_Line__c = true, Opt_in_Social_Network_Line_Validity__c =true),true, false),
+
+OR(Opt_in_Social_Messaging__c =true, Opt_in_Social_Network_Line__c=true, Opt_in_Social_Network_WeChat__c=true)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Global Messaging Opt-in</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Transaction_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Transaction Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Mailing_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mailing Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Social_Messaging__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in Social Messaging</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Per_Transaction_12M__c</fullName>
+        <description>[Item per transaction] 
+For ex , for GSA &gt; Calculated in One Base when there is a new Sale or on the 1st every month: average nb of items per sale (POS and ecommerce) on the last 12 rolling months, with amount &gt; 0. minus returns.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last 12M</inlineHelpText>
+        <label>Item Per Transaction 12M</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_expiration_month__c</fullName>
+        <externalId>false</externalId>
+        <formula>MONTH(DATEVALUE(Status_Expiring__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Loyalty expiration month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PhoneInternationalFormat__c</fullName>
+        <externalId>false</externalId>
+        <label>PhoneInternationalFormat</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Tech_Last_Transaction_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field to store LAST_TRANSACTION_BC KPI&apos;s value as a lookup to BC record</description>
+        <externalId>false</externalId>
+        <label>Tech Last Transaction BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipLabel>Contacts (Tech Last Transaction BC)</relationshipLabel>
+        <relationshipName>Contacts_Last_Transaction_BC</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MobileInternationalFormat__c</fullName>
+        <externalId>false</externalId>
+        <label>MobileInternationalFormat</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Contact_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Contact Channel POS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SMS</fullName>
+                    <default>false</default>
+                    <label>SMS</label>
+                </value>
+                <value>
+                    <fullName>EMAIL</fullName>
+                    <default>false</default>
+                    <label>EMAIL</label>
+                </value>
+                <value>
+                    <fullName>MAIL</fullName>
+                    <default>false</default>
+                    <label>MAIL</label>
+                </value>
+                <value>
+                    <fullName>PHONE</fullName>
+                    <default>false</default>
+                    <label>PHONE</label>
+                </value>
+                <value>
+                    <fullName>SOCIAL MESSAGING</fullName>
+                    <default>false</default>
+                    <label>SOCIAL MESSAGING</label>
+                </value>
+                <value>
+                    <fullName>DO NOT WANT</fullName>
+                    <default>false</default>
+                    <label>DO NOT WANT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Turnover_Premium_Skincare__c</fullName>
+        <externalId>false</externalId>
+        <label>Turnover Premium Skincare</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_of_entry_in_the_Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of entry in the Brand</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Social_Network_Line__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt-in Line</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TEMP_Typology_to_calculate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TEMP Typology to calculate</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_Contact_Date_Marketing__c</fullName>
+        <description>Not editable</description>
+        <externalId>false</externalId>
+        <label>Last Contact Date Marketing</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Social_Network_Binding_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Social Network Binding Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Social_Network_WeChat__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt in Social Network WeChat</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Contact_Channel_CS__c</fullName>
+        <description>Champ uniquement modifiable par l&apos;Advisor.</description>
+        <externalId>false</externalId>
+        <label>Preferred Contact Channel CS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SMS</fullName>
+                    <default>false</default>
+                    <label>SMS</label>
+                </value>
+                <value>
+                    <fullName>EMAIL</fullName>
+                    <default>false</default>
+                    <label>EMAIL</label>
+                </value>
+                <value>
+                    <fullName>MAIL</fullName>
+                    <default>false</default>
+                    <label>MAIL</label>
+                </value>
+                <value>
+                    <fullName>PHONE</fullName>
+                    <default>false</default>
+                    <label>PHONE</label>
+                </value>
+                <value>
+                    <fullName>SOCIAL MESSAGING</fullName>
+                    <default>false</default>
+                    <label>SOCIAL MESSAGING</label>
+                </value>
+                <value>
+                    <fullName>DO NOT WANT</fullName>
+                    <default>false</default>
+                    <label>DO NOT WANT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preferred_Beauty_Consultant_CS__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Preferred Beauty Consultant Service Client</description>
+        <externalId>false</externalId>
+        <label>Preferred Beauty Consultant CS</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Social_Messaging_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Social Messaging Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Creation_Store_Lookup_Retry_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Creation Store Lookup Retry Count</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct1_GoogleShopping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Il s’agit de créer 4 attributs: 
+
+RecommendedProduct1_GoogleShopping__c 
+au niveau de l’objet Contact afin de lier les produits recommandés et leur “fiche” GoogleShopping.
+
+Ces attributs seront des lookup vers l’objet GoogleShopping__c</description>
+        <externalId>false</externalId>
+        <label>Recommended Product 1 GoogleShopping</label>
+        <referenceTo>Google_Shopping__c</referenceTo>
+        <relationshipLabel>Contacts1</relationshipLabel>
+        <relationshipName>Contacts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct2_GoogleShopping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Il s’agit de créer 4 attributs:
+
+RecommendedProduct2_GoogleShopping__c
+au niveau de l’objet Contact afin de lier les produits recommandés et leur “fiche” GoogleShopping.
+
+Ces attributs seront des lookup vers l’objet GoogleShopping__c</description>
+        <externalId>false</externalId>
+        <label>Recommended Product 2 GoogleShopping</label>
+        <referenceTo>Google_Shopping__c</referenceTo>
+        <relationshipLabel>Contacts2</relationshipLabel>
+        <relationshipName>Contacts2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct3_GoogleShopping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Il s’agit de créer 4 attributs:
+
+RecommendedProduct3_GoogleShopping__c
+au niveau de l’objet Contact afin de lier les produits recommandés et leur “fiche” GoogleShopping.
+
+Ces attributs seront des lookup vers l’objet GoogleShopping__c</description>
+        <externalId>false</externalId>
+        <label>Recommended Product 3 GoogleShopping</label>
+        <referenceTo>Google_Shopping__c</referenceTo>
+        <relationshipLabel>Contacts3</relationshipLabel>
+        <relationshipName>Contacts3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecommendedProduct4_GoogleShopping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Il s’agit de créer 4 attributs:
+
+RecommendedProduct4_GoogleShopping__c
+au niveau de l’objet Contact afin de lier les produits recommandés et leur “fiche” GoogleShopping.
+
+Ces attributs seront des lookup vers l’objet GoogleShopping__c</description>
+        <externalId>false</externalId>
+        <label>Recommended Product 4 GoogleShopping</label>
+        <referenceTo>Google_Shopping__c</referenceTo>
+        <relationshipLabel>Contacts4</relationshipLabel>
+        <relationshipName>Contacts4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opt_in_Social_Network_Line_Validity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Line Validity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Contact_MailingStreet}+{!Contact_MailingCity}+{!Contact_MailingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Contact_FirstName} {!Contact_LastName}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Client_Letter</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--uat--apxtconga4.visualforce.com/a0a7Z000007mGvaQAE.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Client Letter</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Contact.Id}
+
+&amp;TemplateId=0T_014UAI457948
+
+&amp;DefaultPDF=1
+&amp;SC0=1
+&amp;SC1=Chatter
+&amp;OFN=Client Letter for {!Contact.Name} - {!Today}</url>
+        <width>900</width>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>PCI PAL Setup</label>
+    <pluralLabel>PCI PAL Setup</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Value__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Value</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordType__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Record Type</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Parameter</fullName>
+                    <default>true</default>
+                    <label>Parameter</label>
+                </value>
+                <value>
+                    <fullName>Locale</fullName>
+                    <default>false</default>
+                    <label>Locale</label>
+                </value>
+                <value>
+                    <fullName>Domain</fullName>
+                    <default>false</default>
+                    <label>Domain</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

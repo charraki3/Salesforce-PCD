@@ -153,43 +153,60 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <gender>Masculine</gender>
-    <label>Employee</label>
+    <label>Product Group Conjunction</label>
     <nameField>
-        <label>Nom de Employee</label>
-        <type>Text</type>
+        <displayFormat>PGC-{0000}</displayFormat>
+        <label>Product Group Conjunction Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Product Group Conjunctions</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>GSI_Market__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>20</length>
+        <formula>TEXT(Google_Shopping_Information__r.Market__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GSI Market</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
+        <fullName>Product_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Email</label>
+        <label>Product Group</label>
+        <referenceTo>Product_Group__c</referenceTo>
+        <relationshipLabel>Product Group Conjunctions</relationshipLabel>
+        <relationshipName>Product_Group_Conjunctions</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>phone__c</fullName>
+        <fullName>GSI_Product_Code__c</fullName>
         <externalId>false</externalId>
-        <label>Phone</label>
-        <length>10</length>
+        <formula>Google_Shopping_Information__r.SAP_Product_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GSI Product Code</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Google_Shopping_Information__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Google Shopping Information</label>
+        <referenceTo>Google_Shopping__c</referenceTo>
+        <relationshipLabel>Product Group Conjunctions</relationshipLabel>
+        <relationshipName>Product_Group_Conjunctions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
 </CustomObject>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sale Franchise Setting</label>
+    <pluralLabel>Sale Franchise Settings</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>ContactId_to_exclude__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>ContactId to exclude</label>
+        <length>18</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <validationRules>
+        <fullName>ContactId_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>!BEGINS(ContactId_to_exclude__c,&apos;003&apos;)</errorConditionFormula>
+        <errorDisplayField>ContactId_to_exclude__c</errorDisplayField>
+        <errorMessage>Invalid ContactId</errorMessage>
+    </validationRules>
+</CustomObject>

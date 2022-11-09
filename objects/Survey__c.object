@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Survey_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Survey_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Survey_Compact_Layout</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is a child of Contact object. Its aim is to store consumer surveys from MyFeelBack (alimented by MyFeelBack connector).</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <gender>Feminine</gender>
+    <label>MyFeelBack Survey</label>
+    <nameField>
+        <displayFormat>S-{00000}</displayFormat>
+        <label>Survey Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>MyFeelBack Surveys</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>Survey_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Survey_Market__c</fields>
+        <fields>Contact__c</fields>
+        <fields>Submission_Date__c</fields>
+        <fields>NPS_Score__c</fields>
+        <fields>Recommendation_Level__c</fields>
+        <fields>Handling_status_surveys__c</fields>
+        <label>Survey Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>MFB__c</fullName>
+        <externalId>false</externalId>
+        <label>MFB Sale ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sale__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Purchase after which the consumer was sent a satisfaction survey. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Sale</label>
+        <referenceTo>Sale__c</referenceTo>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Store__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Store at which consumer made the purchase for which a satisfaction survey was sent. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Store</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MFB_Cl__c</fullName>
+        <externalId>false</externalId>
+        <label>MFB Contact ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Survey completion status. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Paused</fullName>
+                    <default>false</default>
+                    <label>Paused</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Contact related to the survey. Alimented by MyFeelBack connector</description>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Promotor__c</fullName>
+        <description>Technical field used for reporting. Formula which shows the value &quot;1&quot; when Recommendation Level is &quot;Promotor&quot;, and &quot;0&quot; if not.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Recommendation_Level__c, &quot;Promotor&quot;),1,
+0
+)</formula>
+        <label>Promotor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Detractor__c</fullName>
+        <description>Technical field used for reporting. Formula which shows the value &quot;1&quot; when Recommendation Level is &quot;Detractor&quot;, and &quot;0&quot; if not.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Recommendation_Level__c, &quot;Detractor&quot;),1,
+0
+)</formula>
+        <label>Detractor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MFB_BC_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>MFB BC Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NPS_Score__c</fullName>
+        <description>NPS score for each survey. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>NPS Score</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_URL__c</fullName>
+        <description>Survey URL in MyFeelBack. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Survey URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>MFB_Store_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>MFB Store ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Survey_Label__c</fullName>
+        <description>Survey label (text value). Label is identical for surveys sent inside the same &quot;campaign&quot;. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Survey Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Store_Email_1__c</fullName>
+        <description>This field retrieves Store Email 1 field value. It allows to launch the Store managers and subordonates email alert with Process Builder &quot;Survey : Launch Store managers and subordonates email alert (Invocable)&quot;.</description>
+        <externalId>false</externalId>
+        <label>Store Email 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Store_Email_2__c</fullName>
+        <description>This field retrieves Store Email 2 field value. It allows to launch the Store managers and subordonates email alert with Process Builder &quot;Survey : Launch Store managers and subordonates email alert (Invocable)&quot;.</description>
+        <externalId>false</externalId>
+        <label>Store Email 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Store_Email_3__c</fullName>
+        <description>This field retrieves Store Email 3 field value. It allows to launch the Store managers and subordonates email alert with Process Builder &quot;Survey : Launch Store managers and subordonates email alert (Invocable)&quot;.</description>
+        <externalId>false</externalId>
+        <label>Store Email 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey_Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT(MFB__c,2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Survey Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Existing_Store__c</fullName>
+        <description>Technical field, true if a Store record is attached to the current Survey record. Used in order to make process builder criteria based on store lookup completion.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Store__c), false, true)</formula>
+        <label>Existing Store</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Survey_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_results__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact results</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Satisfied</fullName>
+                    <default>false</default>
+                    <label>Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Dissatisfied</fullName>
+                    <default>false</default>
+                    <label>Dissatisfied</label>
+                </value>
+                <value>
+                    <fullName>Not applicable</fullName>
+                    <default>false</default>
+                    <label>Not applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submission_Date__c</fullName>
+        <description>Date at which the consumer took the satisfaction survey. Alimented by MyFeelBack connector.</description>
+        <externalId>false</externalId>
+        <label>Response Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Client_Contacted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox is true when the store owner calls the client who responded to the survey. Updated by process builder &quot;Task : Check Client Contacted on Survey&quot;.</description>
+        <externalId>false</externalId>
+        <label>Client Contacted</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Survey_External_Id__c</fullName>
+        <description>Survey External Id. Alimented by MyFeelBack connector.</description>
+        <externalId>true</externalId>
+        <label>Survey External Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technical_Field_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Technical Field BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipName>Surveys</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comment_from_Advisor__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment from Advisor</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Recommendation_Level__c</fullName>
+        <description>Text value based on NPS score. Alimented by Process Builder &quot;Survey: Update Recommendation and Satisfaction Levels&quot;.
+- NPS Score &gt;= 9: Promotor
+- NPS Score &lt;=6: Detractor
+- NPS Score = 7 or 8: Neutral</description>
+        <externalId>false</externalId>
+        <label>Recommendation Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Promotor</fullName>
+                    <default>false</default>
+                    <label>Promotor</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Detractor</fullName>
+                    <default>false</default>
+                    <label>Detractor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email_notification_sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This checkbox is populated by a Process Builder when an email alert has been sent on a Survey. It allows to not trigger the email notification a second time, when the record is updated.</description>
+        <externalId>false</externalId>
+        <label>Email notification sent</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Handling_status_surveys__c</fullName>
+        <externalId>false</externalId>
+        <label>Handling status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by email (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by email (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone once - no answer</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone once - no answer</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone twice - no answer</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone twice - no answer</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone no answer, then contacted by email (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone no answer, then contacted by email (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone &amp; email (not solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone &amp; email (not solved)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

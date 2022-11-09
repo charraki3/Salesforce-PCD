@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commercial</fullName>
+                    <default>false</default>
+                    <label>Commercial</label>
+                </value>
+                <value>
+                    <fullName>Relational</fullName>
+                    <default>false</default>
+                    <label>Relational</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Activities (Customer)</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Call_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Owner:User.UserRole.Name = &quot;NorthAmerica&quot;, &quot;NorthAmerica&quot;,
+IF( Owner:User.UserRole.Name = &quot;Europe&quot;, &quot;Europe&quot;,
+IF( Owner:User.UserRole.Name = &quot;Japan&quot;, &quot;Japan&quot;,
+&apos;&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Call Team</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MarketFlag__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Market__c,
+&quot;FR&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkBAAS&quot;,&quot;France&quot;),
+&quot;IT&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkAAAS&quot;,&quot;Italia&quot;),
+&quot;ES&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MflNAAS&quot;,&quot;Spain&quot;),
+&quot;RU&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MflMAAS&quot;,&quot;Russia&quot;),
+&quot;PT&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfl0AAC&quot;,&quot;Portugal&quot;),
+&quot;GB&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkHAAS&quot;,&quot;United Kingdom&quot;),
+&quot;NL&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfjyAAC&quot;,&quot;Netherlands&quot;),
+&quot;BE&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfk9AAC&quot;,&quot;Belgium&quot;),
+&quot;GR&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfjuAAC&quot;,&quot;Greece&quot;),
+&quot;PL&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MflAAAS&quot;,&quot;Poland&quot;),
+&quot;SE&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfl8AAC&quot;,&quot;Sweden&quot;),
+&quot;CH&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfl9AAC&quot;,&quot;Switzerland&quot;),
+&quot;RO&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfl7AAC&quot;,&quot;Romania&quot;),
+&quot;IE&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfk2AAC&quot;,&quot;Ireland&quot;),
+&quot;DK&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkzAAC&quot;,&quot;Denmark&quot;),
+&quot;AT&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRSN&quot;,&quot;Austria&quot;),
+&quot;DE&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRT1&quot;,&quot;Germany&quot;),
+&quot;FI&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRTV&quot;,&quot;Finland&quot;),
+&quot;LU&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkE&quot;,&quot;Luxembourg&quot;),
+&quot;CA&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkw&quot;,&quot;Canada&quot;),
+&quot;US&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfko&quot;,&quot;USA&quot;),
+&quot;BR&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfks&quot;,&quot;Brazil&quot;),
+&quot;AE&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkQ&quot;,&quot;United Arab Emirates&quot;),
+&quot;CN&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkj&quot;,&quot;China&quot;),
+&quot;HK&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkl&quot;,&quot;Hong Kong&quot;),
+&quot;KR&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkh&quot;,&quot;South Korea&quot;),
+&quot;JP&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRUw&quot;,&quot;Japan&quot;),
+&quot;SG&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkm&quot;,&quot;Singapore&quot;),
+&quot;TW&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/0687Z000001Dg1R&quot;,&quot;Taiwan&quot;),
+&quot;ID&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRTW&quot;,&quot;Indonesia&quot;),
+&quot;MY&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfkR&quot;,&quot;Malaysia&quot;),
+&quot;NO&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRVR&quot;,&quot;Norway&quot;),
+&quot;AU&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000Mfkk&quot;,&quot;Australia&quot;),
+&quot;INT&quot;, IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000yRU9&quot;,&quot;International&quot;),
+IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfnSAAS&quot;,&quot;Inconnu&quot;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MarketFlag</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DataRecovery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DataRecovery</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_created__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Task created</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Outreach_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Outreach Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>false</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>SMS</fullName>
+                    <default>false</default>
+                    <label>SMS</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Postal Mail</fullName>
+                    <default>false</default>
+                    <label>Postal Mail</label>
+                </value>
+                <value>
+                    <fullName>WhatsApp</fullName>
+                    <default>false</default>
+                    <label>WhatsApp</label>
+                </value>
+                <value>
+                    <fullName>WeChat</fullName>
+                    <default>false</default>
+                    <label>WeChat</label>
+                </value>
+                <value>
+                    <fullName>Line</fullName>
+                    <default>false</default>
+                    <label>Line</label>
+                </value>
+                <value>
+                    <fullName>Line ChatRoom</fullName>
+                    <default>false</default>
+                    <label>Line ChatRoom</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Task_id_report__c</fullName>
+        <description>In order to have 18 digits acitvity ID in Salesforce reports.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <label>Task ID report</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outreach_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Outreach Source</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Campaign</fullName>
+                    <default>false</default>
+                    <label>Campaign</label>
+                </value>
+                <value>
+                    <fullName>Contact 360</fullName>
+                    <default>false</default>
+                    <label>Contact 360</label>
+                </value>
+                <value>
+                    <fullName>Contact List</fullName>
+                    <default>false</default>
+                    <label>Contact List</label>
+                </value>
+                <value>
+                    <fullName>Search</fullName>
+                    <default>false</default>
+                    <label>Search</label>
+                </value>
+                <value>
+                    <fullName>Worldwide Search</fullName>
+                    <default>false</default>
+                    <label>Worldwide Search</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Outreach_Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Outreach Campaign</label>
+        <referenceTo>Campaign__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Technical_Field_BC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>BC</label>
+        <referenceTo>BC__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Case_type_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Related Case type 2</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advice</fullName>
+                    <default>false</default>
+                    <label>Advice</label>
+                </value>
+                <value>
+                    <fullName>Anomalies in store (sales error / other feedback...)</fullName>
+                    <default>false</default>
+                    <label>Anomalies in store (sales error / other feedback...)</label>
+                </value>
+                <value>
+                    <fullName>Availability In Store</fullName>
+                    <default>false</default>
+                    <label>Availability In Store</label>
+                </value>
+                <value>
+                    <fullName>Booking / consultations</fullName>
+                    <default>false</default>
+                    <label>Booking / consultations</label>
+                </value>
+                <value>
+                    <fullName>Brand information</fullName>
+                    <default>false</default>
+                    <label>Brand information</label>
+                </value>
+                <value>
+                    <fullName>Brand policy</fullName>
+                    <default>false</default>
+                    <label>Brand policy</label>
+                </value>
+                <value>
+                    <fullName>Bulk Non compliant</fullName>
+                    <default>false</default>
+                    <label>Bulk Non compliant</label>
+                </value>
+                <value>
+                    <fullName>Call &amp; Delivery</fullName>
+                    <default>false</default>
+                    <label>Call &amp; Delivery</label>
+                </value>
+                <value>
+                    <fullName>Click &amp; Collect (in store)</fullName>
+                    <default>false</default>
+                    <label>Click &amp; Collect (in store)</label>
+                </value>
+                <value>
+                    <fullName>Clienteling</fullName>
+                    <default>false</default>
+                    <label>Clienteling</label>
+                </value>
+                <value>
+                    <fullName>Collaboration</fullName>
+                    <default>false</default>
+                    <label>Collaboration</label>
+                </value>
+                <value>
+                    <fullName>Cosmetovigilance</fullName>
+                    <default>false</default>
+                    <label>Cosmetovigilance</label>
+                </value>
+                <value>
+                    <fullName>CRM Communications</fullName>
+                    <default>false</default>
+                    <label>CRM Communications</label>
+                </value>
+                <value>
+                    <fullName>Delivery Information</fullName>
+                    <default>false</default>
+                    <label>Delivery Information</label>
+                </value>
+                <value>
+                    <fullName>Dior Couture inquiries</fullName>
+                    <default>false</default>
+                    <label>Dior Couture inquiries</label>
+                </value>
+                <value>
+                    <fullName>Engraving service (in store)</fullName>
+                    <default>false</default>
+                    <label>Engraving service (in store)</label>
+                </value>
+                <value>
+                    <fullName>Engraving service (online)</fullName>
+                    <default>false</default>
+                    <label>Engraving service (online)</label>
+                </value>
+                <value>
+                    <fullName>E-services &amp; catalog</fullName>
+                    <default>false</default>
+                    <label>E-services &amp; catalog</label>
+                </value>
+                <value>
+                    <fullName>Gifting policy at multibrands stores</fullName>
+                    <default>false</default>
+                    <label>Gifting policy at multibrands stores</label>
+                </value>
+                <value>
+                    <fullName>Instant Advisory</fullName>
+                    <default>false</default>
+                    <label>Instant Advisory</label>
+                </value>
+                <value>
+                    <fullName>Internal support: Warehouse / operations / Carrier</fullName>
+                    <default>false</default>
+                    <label>Internal support: Warehouse / operations / Carrier</label>
+                </value>
+                <value>
+                    <fullName>Loyalty program</fullName>
+                    <default>false</default>
+                    <label>Loyalty program</label>
+                </value>
+                <value>
+                    <fullName>My Dior Beauty Account Bugs reports</fullName>
+                    <default>false</default>
+                    <label>My Dior Beauty Account Bugs reports</label>
+                </value>
+                <value>
+                    <fullName>Order Delivery &amp; Content</fullName>
+                    <default>false</default>
+                    <label>Order Delivery &amp; Content</label>
+                </value>
+                <value>
+                    <fullName>Ordering experience</fullName>
+                    <default>false</default>
+                    <label>Ordering experience</label>
+                </value>
+                <value>
+                    <fullName>Order on Behalf (Placing an order for the client)</fullName>
+                    <default>false</default>
+                    <label>Order on Behalf (Placing an order for the client)</label>
+                </value>
+                <value>
+                    <fullName>Other client e-services expectations</fullName>
+                    <default>false</default>
+                    <label>Other client e-services expectations</label>
+                </value>
+                <value>
+                    <fullName>Other client store services expectations</fullName>
+                    <default>false</default>
+                    <label>Other client store services expectations</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+                <value>
+                    <fullName>Others - Quality</fullName>
+                    <default>false</default>
+                    <label>Others - Quality</label>
+                </value>
+                <value>
+                    <fullName>Packaging Non compliant</fullName>
+                    <default>false</default>
+                    <label>Packaging Non compliant</label>
+                </value>
+                <value>
+                    <fullName>Payment Policy</fullName>
+                    <default>false</default>
+                    <label>Payment Policy</label>
+                </value>
+                <value>
+                    <fullName>PCD Internal departments</fullName>
+                    <default>false</default>
+                    <label>PCD Internal departments</label>
+                </value>
+                <value>
+                    <fullName>Personal information (CRM related)</fullName>
+                    <default>false</default>
+                    <label>Personal information (CRM related)</label>
+                </value>
+                <value>
+                    <fullName>Post purchase &amp; prior to shipment</fullName>
+                    <default>false</default>
+                    <label>Post purchase &amp; prior to shipment</label>
+                </value>
+                <value>
+                    <fullName>Pricing</fullName>
+                    <default>false</default>
+                    <label>Pricing</label>
+                </value>
+                <value>
+                    <fullName>Privacy Policy</fullName>
+                    <default>false</default>
+                    <label>Privacy Policy</label>
+                </value>
+                <value>
+                    <fullName>Product discovery</fullName>
+                    <default>false</default>
+                    <label>Product discovery</label>
+                </value>
+                <value>
+                    <fullName>Products specificities</fullName>
+                    <default>false</default>
+                    <label>Products specificities</label>
+                </value>
+                <value>
+                    <fullName>Products’ feedback</fullName>
+                    <default>false</default>
+                    <label>Products’ feedback</label>
+                </value>
+                <value>
+                    <fullName>Regulatory affairs</fullName>
+                    <default>false</default>
+                    <label>Regulatory affairs</label>
+                </value>
+                <value>
+                    <fullName>Request of exceptional exchange</fullName>
+                    <default>false</default>
+                    <label>Request of exceptional exchange</label>
+                </value>
+                <value>
+                    <fullName>Returns &amp; Refunds</fullName>
+                    <default>false</default>
+                    <label>Returns &amp; Refunds</label>
+                </value>
+                <value>
+                    <fullName>Sampling campaign</fullName>
+                    <default>false</default>
+                    <label>Sampling campaign</label>
+                </value>
+                <value>
+                    <fullName>Spams</fullName>
+                    <default>false</default>
+                    <label>Spams</label>
+                </value>
+                <value>
+                    <fullName>Special Operations (influencer campaign, event...)</fullName>
+                    <default>false</default>
+                    <label>Special Operations (influencer campaign, event...)</label>
+                </value>
+                <value>
+                    <fullName>Store network &amp; services</fullName>
+                    <default>false</default>
+                    <label>Store network &amp; services</label>
+                </value>
+                <value>
+                    <fullName>Website experience feedback</fullName>
+                    <default>false</default>
+                    <label>Website experience feedback</label>
+                </value>
+                <value>
+                    <fullName>Welcoming in store (Bad service…)</fullName>
+                    <default>false</default>
+                    <label>Welcoming in store (Bad service…)</label>
+                </value>
+                <value>
+                    <fullName>Wrong numbers / cut calls</fullName>
+                    <default>false</default>
+                    <label>Wrong numbers / cut calls</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_sale_number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related sale number</label>
+        <referenceTo>Sale__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Outreach_Clienteling__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Outreach Clienteling</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Outreach_Clienteling_CS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Outreach Clienteling CS</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Last_Activity_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Client__r.Last_Activity_Date__c</formula>
+        <label>Contact Last Activity Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Logistics_team_action_done_order_reship__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Logistics team action done</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Order_team_action_done_order_reshipment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order team action done</label>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

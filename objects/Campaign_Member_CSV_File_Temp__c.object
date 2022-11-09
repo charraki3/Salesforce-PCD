@@ -154,39 +154,62 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <gender>Masculine</gender>
-    <label>Employee</label>
+    <label>Campaign Member CSV File Temp</label>
     <nameField>
-        <label>Nom de Employee</label>
+        <label>Campaign Member CSV File Temp Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Campaign Members CSV Files Temp</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>Market__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>20</length>
+        <label>Market</label>
+        <length>50</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Email</label>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Campaign Members CSV Files Temp</relationshipLabel>
+        <relationshipName>Campaign_Members_CSV_Files_Temp</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>phone__c</fullName>
+        <fullName>ClientId__c</fullName>
         <externalId>false</externalId>
-        <label>Phone</label>
-        <length>10</length>
+        <label>Client Id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CampaignId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaign</label>
+        <referenceTo>Campaign__c</referenceTo>
+        <relationshipName>CSV_Files_Temp</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContentDocumentId__c</fullName>
+        <externalId>false</externalId>
+        <label>ContentDocumentId</label>
+        <length>18</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>

@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Campaign_C_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Campaign_C_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Campaign</label>
+    <nameField>
+        <label>Campaign Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Campaigns</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0: Being edited</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11: Targeting pending</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12: Counting in progress</label>
+                </value>
+                <value>
+                    <fullName>13</fullName>
+                    <default>false</default>
+                    <label>13: Arbitration in progress</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>15: Target ready</label>
+                </value>
+                <value>
+                    <fullName>21</fullName>
+                    <default>false</default>
+                    <label>21: Personalization pending</label>
+                </value>
+                <value>
+                    <fullName>22</fullName>
+                    <default>false</default>
+                    <label>22: Personalization in progress</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>25: Message finalized</label>
+                </value>
+                <value>
+                    <fullName>37</fullName>
+                    <default>false</default>
+                    <label>37: Personalization or count failed</label>
+                </value>
+                <value>
+                    <fullName>45</fullName>
+                    <default>false</default>
+                    <label>45: Ready to be delivered</label>
+                </value>
+                <value>
+                    <fullName>51</fullName>
+                    <default>false</default>
+                    <label>51: Start pending</label>
+                </value>
+                <value>
+                    <fullName>55</fullName>
+                    <default>false</default>
+                    <label>55: In progress</label>
+                </value>
+                <value>
+                    <fullName>61</fullName>
+                    <default>false</default>
+                    <label>61: Retry pending</label>
+                </value>
+                <value>
+                    <fullName>62</fullName>
+                    <default>false</default>
+                    <label>62: Retry in progress</label>
+                </value>
+                <value>
+                    <fullName>71</fullName>
+                    <default>false</default>
+                    <label>71: Pause requested</label>
+                </value>
+                <value>
+                    <fullName>72</fullName>
+                    <default>false</default>
+                    <label>72: Pause in progress</label>
+                </value>
+                <value>
+                    <fullName>75</fullName>
+                    <default>false</default>
+                    <label>75: Paused</label>
+                </value>
+                <value>
+                    <fullName>81</fullName>
+                    <default>false</default>
+                    <label>81: Stop requested</label>
+                </value>
+                <value>
+                    <fullName>82</fullName>
+                    <default>false</default>
+                    <label>82: Stop in progress</label>
+                </value>
+                <value>
+                    <fullName>85</fullName>
+                    <default>false</default>
+                    <label>85: Stopped</label>
+                </value>
+                <value>
+                    <fullName>87</fullName>
+                    <default>false</default>
+                    <label>87: Failed</label>
+                </value>
+                <value>
+                    <fullName>95</fullName>
+                    <default>false</default>
+                    <label>95: Finished</label>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100: Deleted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Store__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Store</label>
+        <referenceTo>Store__c</referenceTo>
+        <relationshipLabel>Campaigns</relationshipLabel>
+        <relationshipName>Campaigns</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Script__c</fullName>
+        <externalId>false</externalId>
+        <label>Script</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Purpose__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-purpose</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-launch Discovery</fullName>
+                    <default>false</default>
+                    <label>Pre-launch Discovery</label>
+                </value>
+                <value>
+                    <fullName>Events</fullName>
+                    <default>false</default>
+                    <label>Events</label>
+                </value>
+                <value>
+                    <fullName>1 to 1 Services</fullName>
+                    <default>false</default>
+                    <label>1 to 1 Services</label>
+                </value>
+                <value>
+                    <fullName>Masterclasses</fullName>
+                    <default>false</default>
+                    <label>Masterclasses</label>
+                </value>
+                <value>
+                    <fullName>Status upgrade opportunity</fullName>
+                    <default>false</default>
+                    <label>Status upgrade opportunity</label>
+                </value>
+                <value>
+                    <fullName>Product Novelties</fullName>
+                    <default>false</default>
+                    <label>Product Novelties</label>
+                </value>
+                <value>
+                    <fullName>Exclusive Offers</fullName>
+                    <default>false</default>
+                    <label>Exclusive Offers</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+                <value>
+                    <fullName>Birthday High Spenders</fullName>
+                    <default>false</default>
+                    <label>Birthday High Spenders</label>
+                </value>
+                <value>
+                    <fullName>Birthday Mid Spenders</fullName>
+                    <default>false</default>
+                    <label>Birthday Mid Spenders</label>
+                </value>
+                <value>
+                    <fullName>Personal greetings</fullName>
+                    <default>false</default>
+                    <label>Personal greetings</label>
+                </value>
+                <value>
+                    <fullName>Seasonal greetings</fullName>
+                    <default>false</default>
+                    <label>Seasonal greetings</label>
+                </value>
+                <value>
+                    <fullName>Gift availability on counter</fullName>
+                    <default>false</default>
+                    <label>Gift availability on counter</label>
+                </value>
+                <value>
+                    <fullName>New magazine</fullName>
+                    <default>false</default>
+                    <label>New magazine</label>
+                </value>
+                <value>
+                    <fullName>1st Premium skincare purchase</fullName>
+                    <default>false</default>
+                    <label>1st Premium skincare purchase</label>
+                </value>
+                <value>
+                    <fullName>1st Icons purchase</fullName>
+                    <default>false</default>
+                    <label>1st Icons purchase</label>
+                </value>
+                <value>
+                    <fullName>New with high potential</fullName>
+                    <default>false</default>
+                    <label>New with high potential</label>
+                </value>
+                <value>
+                    <fullName>Premium skincare post-sampling</fullName>
+                    <default>false</default>
+                    <label>Premium skincare post-sampling</label>
+                </value>
+                <value>
+                    <fullName>Premium Skincare Replenishment</fullName>
+                    <default>false</default>
+                    <label>Premium Skincare Replenishment</label>
+                </value>
+                <value>
+                    <fullName>Foundation Replenishment</fullName>
+                    <default>false</default>
+                    <label>Foundation Replenishment</label>
+                </value>
+                <value>
+                    <fullName>Other replenishment</fullName>
+                    <default>false</default>
+                    <label>Other replenishment</label>
+                </value>
+                <value>
+                    <fullName>Anti-churn High Spenders</fullName>
+                    <default>false</default>
+                    <label>Anti-churn High Spenders</label>
+                </value>
+                <value>
+                    <fullName>Anti-churn Mid Spenders</fullName>
+                    <default>false</default>
+                    <label>Anti-churn Mid Spenders</label>
+                </value>
+                <value>
+                    <fullName>Status expiry</fullName>
+                    <default>false</default>
+                    <label>Status expiry</label>
+                </value>
+                <value>
+                    <fullName>Dissatisfaction</fullName>
+                    <default>false</default>
+                    <label>Dissatisfaction</label>
+                </value>
+                <value>
+                    <fullName>Satisfaction</fullName>
+                    <default>false</default>
+                    <label>Satisfaction</label>
+                </value>
+                <value>
+                    <fullName>Passive</fullName>
+                    <default>false</default>
+                    <label>Passive</label>
+                </value>
+                <value>
+                    <fullName>One-to-one services</fullName>
+                    <default>false</default>
+                    <label>One-to-one services</label>
+                </value>
+                <value>
+                    <fullName>Skincare Replenishment</fullName>
+                    <default>false</default>
+                    <label>Skincare Replenishment</label>
+                </value>
+                <value>
+                    <fullName>2nd purchase reminder</fullName>
+                    <default>false</default>
+                    <label>2nd purchase reminder</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Channels__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>25</label>
+                </value>
+                <value>
+                    <fullName>41</fullName>
+                    <default>false</default>
+                    <label>41</label>
+                </value>
+                <value>
+                    <fullName>42</fullName>
+                    <default>false</default>
+                    <label>42</label>
+                </value>
+                <value>
+                    <fullName>61</fullName>
+                    <default>false</default>
+                    <label>61</label>
+                </value>
+                <value>
+                    <fullName>120</fullName>
+                    <default>false</default>
+                    <label>120</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ImageURL__c</fullName>
+        <externalId>false</externalId>
+        <label>Image URL</label>
+        <length>130768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Position__c</fullName>
+        <externalId>false</externalId>
+        <label>Position</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>List_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>List Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Permanent</fullName>
+                    <default>false</default>
+                    <label>Permanent</label>
+                </value>
+                <value>
+                    <fullName>Tactical</fullName>
+                    <default>false</default>
+                    <label>Tactical</label>
+                </value>
+                <value>
+                    <fullName>Tactical Manager</fullName>
+                    <default>false</default>
+                    <label>Tactical Manager</label>
+                </value>
+                <value>
+                    <fullName>Satisfaction</fullName>
+                    <default>false</default>
+                    <label>Satisfaction</label>
+                </value>
+                <value>
+                    <fullName>Use Case</fullName>
+                    <default>false</default>
+                    <label>Use Case</label>
+                </value>
+                <value>
+                    <fullName>Dissatisfaction</fullName>
+                    <default>false</default>
+                    <label>Dissatisfaction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Icon_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Icon Image</label>
+        <length>130768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KPI_Optout__c</fullName>
+        <externalId>false</externalId>
+        <label>Optout</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Promo_code__c</fullName>
+        <externalId>false</externalId>
+        <label>Promo code</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delivery_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Delivery ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>This field is used as a fall back description only when no translated key is found in the translation module</description>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Is_Editable__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OwnerId = $User.Id &amp;&amp;  ISPICKVAL(List_Type__c, &quot;Tactical Manager&quot;), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Editable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>KPI_Success__c</fullName>
+        <externalId>false</externalId>
+        <label>Success</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>(Sending date)</inlineHelpText>
+        <label>Contact date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Background_Color__c</fullName>
+        <defaultValue>&quot;#12191F&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Background Color</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Purpose__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Purpose</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>INV</fullName>
+                    <default>false</default>
+                    <label>Invitation</label>
+                </value>
+                <value>
+                    <fullName>COU</fullName>
+                    <default>false</default>
+                    <label>Courtesy</label>
+                </value>
+                <value>
+                    <fullName>SAT</fullName>
+                    <default>false</default>
+                    <label>Satisfaction</label>
+                </value>
+                <value>
+                    <fullName>REP</fullName>
+                    <default>false</default>
+                    <label>Replenishment</label>
+                </value>
+                <value>
+                    <fullName>ANT</fullName>
+                    <default>false</default>
+                    <label>Anti-churn</label>
+                </value>
+                <value>
+                    <fullName>EXP</fullName>
+                    <default>false</default>
+                    <label>DSM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Clienteling_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Clienteling Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Automatic_Campaign__c</fullName>
+        <externalId>false</externalId>
+        <label>Automatic Campaign</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>anniversaire</fullName>
+                    <default>false</default>
+                    <label>anniversaire</label>
+                </value>
+                <value>
+                    <fullName>antiChurn</fullName>
+                    <default>false</default>
+                    <label>antiChurn</label>
+                </value>
+                <value>
+                    <fullName>refill</fullName>
+                    <default>false</default>
+                    <label>refill</label>
+                </value>
+                <value>
+                    <fullName>satisfaction</fullName>
+                    <default>false</default>
+                    <label>satisfaction</label>
+                </value>
+                <value>
+                    <fullName>welcomeClient</fullName>
+                    <default>false</default>
+                    <label>welcomeClient</label>
+                </value>
+                <value>
+                    <fullName>welcomeProspect</fullName>
+                    <default>false</default>
+                    <label>welcomeProspect</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>KPI_Distinct_opens__c</fullName>
+        <externalId>false</externalId>
+        <label>Distinct opens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Are_Members_Pending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Are Members Pending</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Creation_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Creation Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>KPI_Distinct_clicks__c</fullName>
+        <externalId>false</externalId>
+        <label>Distinct clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CommunicationChannel__c</fullName>
+        <externalId>false</externalId>
+        <label>Communication Channel</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>External target</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>Direct Mail</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>Landling phone</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>Mobile (SMS/MMS)</label>
+                </value>
+                <value>
+                    <fullName>106</fullName>
+                    <default>false</default>
+                    <label>Mobile E-Mail</label>
+                </value>
+                <value>
+                    <fullName>108</fullName>
+                    <default>false</default>
+                    <label>Mobile phone</label>
+                </value>
+                <value>
+                    <fullName>109</fullName>
+                    <default>false</default>
+                    <label>Office phone</label>
+                </value>
+                <value>
+                    <fullName>110</fullName>
+                    <default>false</default>
+                    <label>Global phone</label>
+                </value>
+                <value>
+                    <fullName>111</fullName>
+                    <default>false</default>
+                    <label>Line</label>
+                </value>
+                <value>
+                    <fullName>112</fullName>
+                    <default>false</default>
+                    <label>WeChat</label>
+                </value>
+                <value>
+                    <fullName>113</fullName>
+                    <default>false</default>
+                    <label>Clienteling</label>
+                </value>
+                <value>
+                    <fullName>103</fullName>
+                    <default>false</default>
+                    <label>Clienteling CS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Delivery_Internal_Name__c</fullName>
+        <externalId>true</externalId>
+        <label>Delivery Internal Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_Message_to_deliver__c</fullName>
+        <externalId>false</externalId>
+        <label>Message to deliver</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_Total_count_of_opens__c</fullName>
+        <externalId>false</externalId>
+        <label>Total count of opens</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>KPI_Total_number_of_clicks__c</fullName>
+        <externalId>false</externalId>
+        <label>Total number of clicks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delivery_to_Update_or_Delete__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>U for Update; D for Delete</inlineHelpText>
+        <label>Delivery to Update or Delete</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
