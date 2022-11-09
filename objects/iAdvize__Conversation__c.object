@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CS_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( iAdvize__operator__r.UserRole.Name = &apos;Japan&apos;, &apos;JP&apos;,
+IF( iAdvize__operator__r.UserRole.Name = &apos;NorthAmerica&apos;, &apos;US&apos;,
+&apos;EU&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CS Team</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case number</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Conversations</relationshipLabel>
+        <relationshipName>Conversations</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Market_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case_number__r.Country_Pictogram__c</formula>
+        <label>Market Flag</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case_number__r.Market__c)</formula>
+        <label>Market</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>My_conversation__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(iAdvize__operator__r.Id = $User.Id, True, False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>My conversation?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

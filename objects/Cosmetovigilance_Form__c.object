@@ -1,0 +1,3941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Cosmetovigilance_Form_Compact_Layout</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <gender>Feminine</gender>
+    <label>Cosmetovigilance</label>
+    <nameField>
+        <displayFormat>{000000}</displayFormat>
+        <label>Cosmetovigilance Form Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Cosmetovigilance</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <searchResultsAdditionalFields>Case__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Case_assessment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Conclusion__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Misuse__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>Cosmetovigilance_Form_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Case__c</fields>
+        <fields>Case_assessment_2__c</fields>
+        <fields>Cosmetovigilance_form_acceptance__c</fields>
+        <fields>Vigilance_Partner_follow_up_acceptance__c</fields>
+        <fields>To_be_sent_to_Ennov__c</fields>
+        <fields>Serious_adverse_event_c__c</fields>
+        <label>Cosmetovigilance Form Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <label>Age</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Case ID</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipName>Cosmetovigilance_Form</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Title</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dr</fullName>
+                    <default>false</default>
+                    <label>Dr</label>
+                </value>
+                <value>
+                    <fullName>Mr</fullName>
+                    <default>false</default>
+                    <label>Mr</label>
+                </value>
+                <value>
+                    <fullName>Mrs</fullName>
+                    <default>true</default>
+                    <label>Mrs</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Not communicated</fullName>
+                    <default>false</default>
+                    <label>Not communicated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Axis_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_1__r.CosmetoAxis__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Axis 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Axis_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_2__r.CosmetoAxis__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Axis 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Axis_3__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_3__r.CosmetoAxis__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Axis 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Axis_4__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_4__r.CosmetoAxis__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Axis 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Axis_5__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_5__r.CosmetoAxis__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Axis 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Non-binary</fullName>
+                    <default>false</default>
+                    <label>Non-binary</label>
+                </value>
+                <value>
+                    <fullName>Not communicated</fullName>
+                    <default>false</default>
+                    <label>Not communicated</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Misuse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Misuse</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mobile__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.MobilePhone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mobile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>Retailer</label>
+                </value>
+                <value>
+                    <fullName>Employee</fullName>
+                    <default>false</default>
+                    <label>Employee</label>
+                </value>
+                <value>
+                    <fullName>Authority officer</fullName>
+                    <default>false</default>
+                    <label>Authority officer</label>
+                </value>
+                <value>
+                    <fullName>Health professional</fullName>
+                    <default>false</default>
+                    <label>Health professional</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Beauty advisor</fullName>
+                    <default>false</default>
+                    <label>Beauty advisor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Cosmetovigilance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Client contacted</fullName>
+                    <default>false</default>
+                    <label>Client contacted</label>
+                </value>
+                <value>
+                    <fullName>Awaiting customer</fullName>
+                    <default>false</default>
+                    <label>Awaiting customer</label>
+                </value>
+                <value>
+                    <fullName>Sent to Ennov</fullName>
+                    <default>false</default>
+                    <label>Sent to Safetybook</label>
+                </value>
+                <value>
+                    <fullName>Sent to vigilance partner</fullName>
+                    <default>false</default>
+                    <label>Sent to vigilance partner</label>
+                </value>
+                <value>
+                    <fullName>In progress with vigilance partner</fullName>
+                    <default>false</default>
+                    <label>In progress with vigilance partner</label>
+                </value>
+                <value>
+                    <fullName>Vigilance partner investigation done</fullName>
+                    <default>false</default>
+                    <label>Vigilance partner investigation done</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>New</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Allergy__c</fullName>
+        <externalId>false</externalId>
+        <label>Allergy</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cosmetic</fullName>
+                    <default>false</default>
+                    <label>Cosmetic</label>
+                </value>
+                <value>
+                    <fullName>Drug</fullName>
+                    <default>false</default>
+                    <label>Drug</label>
+                </value>
+                <value>
+                    <fullName>Food</fullName>
+                    <default>false</default>
+                    <label>Food</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Pollen</fullName>
+                    <default>false</default>
+                    <label>Pollen</label>
+                </value>
+                <value>
+                    <fullName>Henna tatoo/hair coloration</fullName>
+                    <default>false</default>
+                    <label>Henna tatoo/hair coloration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>9</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.CosmetoCountry__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completely recovered</fullName>
+                    <default>false</default>
+                    <label>Completely recovered</label>
+                </value>
+                <value>
+                    <fullName>Partially recovered</fullName>
+                    <default>false</default>
+                    <label>Partially recovered</label>
+                </value>
+                <value>
+                    <fullName>Not recovered</fullName>
+                    <default>false</default>
+                    <label>Not recovered</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Pharmacovigilance: product has a regulatory status (OTC, DIN,…)
+Misuse: improper use of the product</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pharmacovigilance</fullName>
+                    <default>false</default>
+                    <label>Pharmacovigilance</label>
+                </value>
+                <value>
+                    <fullName>Misuse</fullName>
+                    <default>false</default>
+                    <label>Misuse</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate if there was a diagnosis, a treatment was administrated or if there was a selfcare treatment.</inlineHelpText>
+        <label>Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Case__r.Language )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Province__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.CosmetoRegion__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Province</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Symptoms__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptoms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1.heat sensation</fullName>
+                    <default>false</default>
+                    <label>1.heat sensation</label>
+                </value>
+                <value>
+                    <fullName>2.dryness</fullName>
+                    <default>false</default>
+                    <label>2.dryness</label>
+                </value>
+                <value>
+                    <fullName>3.stinging</fullName>
+                    <default>false</default>
+                    <label>3.stinging</label>
+                </value>
+                <value>
+                    <fullName>4.skin tightness</fullName>
+                    <default>false</default>
+                    <label>4.skin tightness</label>
+                </value>
+                <value>
+                    <fullName>5.burning sensation</fullName>
+                    <default>false</default>
+                    <label>5.burning sensation</label>
+                </value>
+                <value>
+                    <fullName>6.itching</fullName>
+                    <default>false</default>
+                    <label>6.itching</label>
+                </value>
+                <value>
+                    <fullName>7.watery eyes</fullName>
+                    <default>false</default>
+                    <label>7.watery eyes</label>
+                </value>
+                <value>
+                    <fullName>8.redness</fullName>
+                    <default>false</default>
+                    <label>8.redness</label>
+                </value>
+                <value>
+                    <fullName>9.pimple</fullName>
+                    <default>false</default>
+                    <label>9.pimple</label>
+                </value>
+                <value>
+                    <fullName>10.pustule</fullName>
+                    <default>false</default>
+                    <label>10.pustule</label>
+                </value>
+                <value>
+                    <fullName>11.blister</fullName>
+                    <default>false</default>
+                    <label>11.blister</label>
+                </value>
+                <value>
+                    <fullName>12.oedema</fullName>
+                    <default>false</default>
+                    <label>12.oedema</label>
+                </value>
+                <value>
+                    <fullName>13.peeling skin</fullName>
+                    <default>false</default>
+                    <label>13.peeling skin</label>
+                </value>
+                <value>
+                    <fullName>14.oozing</fullName>
+                    <default>false</default>
+                    <label>14.oozing</label>
+                </value>
+                <value>
+                    <fullName>15.erosion</fullName>
+                    <default>false</default>
+                    <label>15.erosion</label>
+                </value>
+                <value>
+                    <fullName>16.pigmentation</fullName>
+                    <default>false</default>
+                    <label>16.pigmentation</label>
+                </value>
+                <value>
+                    <fullName>17.depigmentation</fullName>
+                    <default>false</default>
+                    <label>17.depigmentation</label>
+                </value>
+                <value>
+                    <fullName>18.nausea</fullName>
+                    <default>false</default>
+                    <label>18.nausea</label>
+                </value>
+                <value>
+                    <fullName>19.pain</fullName>
+                    <default>false</default>
+                    <label>19.pain</label>
+                </value>
+                <value>
+                    <fullName>20.other</fullName>
+                    <default>false</default>
+                    <label>20.other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.CosmetoZip__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Zip code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isPurged__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isPurged</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Case_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Case type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accident</fullName>
+                    <default>false</default>
+                    <label>Accident</label>
+                </value>
+                <value>
+                    <fullName>Misuse</fullName>
+                    <default>false</default>
+                    <label>Misuse</label>
+                </value>
+                <value>
+                    <fullName>Question</fullName>
+                    <default>false</default>
+                    <label>Question</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Duty_free__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Duty free</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Intensity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select from 1 to 10</inlineHelpText>
+        <label>Intensity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Skin_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Skin type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dry</fullName>
+                    <default>false</default>
+                    <label>Dry</label>
+                </value>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Normal-combination</fullName>
+                    <default>false</default>
+                    <label>Normal-combination</label>
+                </value>
+                <value>
+                    <fullName>Combination</fullName>
+                    <default>false</default>
+                    <label>Combination</label>
+                </value>
+                <value>
+                    <fullName>Oily</fullName>
+                    <default>false</default>
+                    <label>Oily</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Stop_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If stopped definitely</inlineHelpText>
+        <label>Stop Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Treatment__c</fullName>
+        <externalId>false</externalId>
+        <label>Treatment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>City_State__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.CosmetoCity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>City/State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conclusion__c</fullName>
+        <externalId>false</externalId>
+        <label>Conclusion</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Investigation accepted</fullName>
+                    <default>false</default>
+                    <label>Investigation accepted</label>
+                </value>
+                <value>
+                    <fullName>Investigation on hold customer&apos;s decision</fullName>
+                    <default>false</default>
+                    <label>Investigation on hold customer&apos;s decision</label>
+                </value>
+                <value>
+                    <fullName>Investigation refused</fullName>
+                    <default>false</default>
+                    <label>Investigation refused</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Occupation__c</fullName>
+        <externalId>false</externalId>
+        <label>Occupation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Health Professional</fullName>
+                    <default>false</default>
+                    <label>Health Professional</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Journalist</fullName>
+                    <default>false</default>
+                    <label>Journalist</label>
+                </value>
+                <value>
+                    <fullName>Lawyer</fullName>
+                    <default>false</default>
+                    <label>Lawyer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Health Profesionnal Consulted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Re_exposure__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Re-exposure after skin was healed</inlineHelpText>
+        <label>Re-exposure</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes with reaction</fullName>
+                    <default>false</default>
+                    <label>Yes with reaction</label>
+                </value>
+                <value>
+                    <fullName>Yes with no reaction</fullName>
+                    <default>false</default>
+                    <label>Yes with no reaction</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reference_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_1__r.CosmetoProductCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_2__r.CosmetoProductCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_3__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_3__r.CosmetoProductCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_4__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_4__r.CosmetoProductCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_5__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_5__r.CosmetoProductCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Action_taken__c</fullName>
+        <externalId>false</externalId>
+        <label>Action taken</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Stopped temporarily</fullName>
+                    <default>false</default>
+                    <label>Stopped temporarily</label>
+                </value>
+                <value>
+                    <fullName>Stopped definitely</fullName>
+                    <default>false</default>
+                    <label>Stopped definitely</label>
+                </value>
+                <value>
+                    <fullName>Ongoing use</fullName>
+                    <default>false</default>
+                    <label>Ongoing use</label>
+                </value>
+                <value>
+                    <fullName>N.A</fullName>
+                    <default>false</default>
+                    <label>N.A</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Batch_Code_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Code 1</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batch_Code_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Code 2</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batch_Code_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Code 3</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batch_Code_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Code 4</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batch_Code_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Code 5</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reusing_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If stopped temporarily</inlineHelpText>
+        <label>Reusing Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>See_a_doctor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>See a doctor</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ennov_case_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SafetyBook ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>More_Products__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>More Products</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status_motive__c</fullName>
+        <externalId>false</externalId>
+        <label>Status motive</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Awaiting form creation</fullName>
+                    <default>false</default>
+                    <label>Awaiting form creation</label>
+                </value>
+                <value>
+                    <fullName>Awaiting vigilance partner follow up  acceptance</fullName>
+                    <default>false</default>
+                    <label>Awaiting vigilance partner follow up  acceptance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Symptoms_site__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptoms site</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Armpit</fullName>
+                    <default>false</default>
+                    <label>Armpit</label>
+                </value>
+                <value>
+                    <fullName>Body</fullName>
+                    <default>false</default>
+                    <label>Body</label>
+                </value>
+                <value>
+                    <fullName>Cheeks</fullName>
+                    <default>false</default>
+                    <label>Cheeks</label>
+                </value>
+                <value>
+                    <fullName>Chest</fullName>
+                    <default>false</default>
+                    <label>Chest</label>
+                </value>
+                <value>
+                    <fullName>Chin</fullName>
+                    <default>false</default>
+                    <label>Chin</label>
+                </value>
+                <value>
+                    <fullName>Ears</fullName>
+                    <default>false</default>
+                    <label>Ears</label>
+                </value>
+                <value>
+                    <fullName>Eye</fullName>
+                    <default>false</default>
+                    <label>Eye</label>
+                </value>
+                <value>
+                    <fullName>Eyebrows</fullName>
+                    <default>false</default>
+                    <label>Eyebrows</label>
+                </value>
+                <value>
+                    <fullName>Eye contour</fullName>
+                    <default>false</default>
+                    <label>Eye contour</label>
+                </value>
+                <value>
+                    <fullName>Eyelashes</fullName>
+                    <default>false</default>
+                    <label>Eyelashes</label>
+                </value>
+                <value>
+                    <fullName>Eyelids</fullName>
+                    <default>false</default>
+                    <label>Eyelids</label>
+                </value>
+                <value>
+                    <fullName>Face</fullName>
+                    <default>false</default>
+                    <label>Face</label>
+                </value>
+                <value>
+                    <fullName>Foot</fullName>
+                    <default>false</default>
+                    <label>Foot</label>
+                </value>
+                <value>
+                    <fullName>Forehead</fullName>
+                    <default>false</default>
+                    <label>Forehead</label>
+                </value>
+                <value>
+                    <fullName>Hair</fullName>
+                    <default>false</default>
+                    <label>Hair</label>
+                </value>
+                <value>
+                    <fullName>Jaw</fullName>
+                    <default>false</default>
+                    <label>Jaw</label>
+                </value>
+                <value>
+                    <fullName>Lip contour</fullName>
+                    <default>false</default>
+                    <label>Lip contour</label>
+                </value>
+                <value>
+                    <fullName>Lips</fullName>
+                    <default>false</default>
+                    <label>Lips</label>
+                </value>
+                <value>
+                    <fullName>Nail</fullName>
+                    <default>false</default>
+                    <label>Nail</label>
+                </value>
+                <value>
+                    <fullName>Neck</fullName>
+                    <default>false</default>
+                    <label>Neck</label>
+                </value>
+                <value>
+                    <fullName>Nose</fullName>
+                    <default>false</default>
+                    <label>Nose</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comment_Misuse__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Email_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Reporter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Frequency_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Frequency of use - Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Per hour</fullName>
+                    <default>false</default>
+                    <label>Per hour</label>
+                </value>
+                <value>
+                    <fullName>Per day</fullName>
+                    <default>false</default>
+                    <label>Per day</label>
+                </value>
+                <value>
+                    <fullName>Per week</fullName>
+                    <default>false</default>
+                    <label>Per week</label>
+                </value>
+                <value>
+                    <fullName>Per month</fullName>
+                    <default>false</default>
+                    <label>Per month</label>
+                </value>
+                <value>
+                    <fullName>Per year</fullName>
+                    <default>false</default>
+                    <label>Per year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hospital_visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Overnight Admission</inlineHelpText>
+        <label>Hospital visit</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Plus de filtre Commercial USer = Catalog Sales pour le packaging</description>
+        <externalId>false</externalId>
+        <label>Product Name 1</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cosmetovigilance (Product Name 1)</relationshipLabel>
+        <relationshipName>Cosmetovigilance_Form</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Plus de filtre Commercial USer = Catalog Sales pour le packaging</description>
+        <externalId>false</externalId>
+        <label>Product Name 2</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cosmetovigilance (Product Name 2)</relationshipLabel>
+        <relationshipName>Cosmetovigilance_Form1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Plus de filtre Commercial USer = Catalog Sales pour le packaging</description>
+        <externalId>false</externalId>
+        <label>Product Name 3</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cosmetovigilance (Product Name 3)</relationshipLabel>
+        <relationshipName>Cosmetovigilance_Form2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Plus de filtre Commercial USer = Catalog Sales pour le packaging</description>
+        <externalId>false</externalId>
+        <label>Product Name 4</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cosmetovigilance (Product Name 4)</relationshipLabel>
+        <relationshipName>Cosmetovigilance_Form3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Name_5__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Plus de filtre Commercial USer = Catalog Sales pour le packaging</description>
+        <externalId>false</externalId>
+        <label>Product Name 5</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cosmetovigilance (Product Name 5)</relationshipLabel>
+        <relationshipName>Cosmetovigilance_Form4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SAP_Label_EN_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_1__r.SAP_Label_EN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAP Label EN 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Label_EN_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_2__r.SAP_Label_EN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAP Label EN 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Label_EN_3__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_3__r.SAP_Label_EN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAP Label EN 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Label_EN_4__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_4__r.SAP_Label_EN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAP Label EN 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SAP_Label_EN_5__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name_5__r.SAP_Label_EN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAP Label EN 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sensitive_case__c</fullName>
+        <externalId>false</externalId>
+        <label>Sensitive case</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Health Professional</fullName>
+                    <default>false</default>
+                    <label>Health Professional</label>
+                </value>
+                <value>
+                    <fullName>Consumer association</fullName>
+                    <default>false</default>
+                    <label>Consumer association</label>
+                </value>
+                <value>
+                    <fullName>Media Exposure</fullName>
+                    <default>false</default>
+                    <label>Media exposure threat</label>
+                </value>
+                <value>
+                    <fullName>Legal threat</fullName>
+                    <default>false</default>
+                    <label>Legal action threat</label>
+                </value>
+                <value>
+                    <fullName>Premium customer</fullName>
+                    <default>false</default>
+                    <label>Premium customer</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Skin_condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Skin condition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acne</fullName>
+                    <default>false</default>
+                    <label>Acne</label>
+                </value>
+                <value>
+                    <fullName>Dryness</fullName>
+                    <default>false</default>
+                    <label>Dryness</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_assessment__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+	OR(
+		ISPICKVAL(Potential_Serious_Undesirable_Effect__c,&quot;Yes&quot;),
+		OR
+			(
+				INCLUDES(Sensitive_case__c,&quot;Health Professional&quot;),
+				INCLUDES(Sensitive_case__c,&quot;Consumer association&quot;),
+				INCLUDES(Sensitive_case__c,&quot;Media Exposure&quot;),
+				INCLUDES(Sensitive_case__c,&quot;Legal threat&quot;),
+				INCLUDES(Sensitive_case__c,&quot;Premium customer&quot;),
+				INCLUDES(Sensitive_case__c,&quot;Influencer&quot;)
+				
+			),
+		INCLUDES(Symptoms__c,&quot;9.pimple&quot;),
+		INCLUDES(Symptoms__c,&quot;10.pustule&quot;),
+		INCLUDES(Symptoms__c,&quot;11.blister&quot;),
+		INCLUDES(Symptoms__c,&quot;12.oedema&quot;),
+		INCLUDES(Symptoms__c,&quot;13.peeling skin&quot;),
+		INCLUDES(Symptoms__c,&quot;14.oozing&quot;),
+		INCLUDES(Symptoms__c,&quot;15.erosion&quot;),
+		INCLUDES(Symptoms__c,&quot;16.pigmentation&quot;),
+		INCLUDES(Symptoms__c,&quot;17.depigmentation&quot;),
+		INCLUDES(Symptoms__c,&quot;18.nausea&quot;),
+		INCLUDES(Symptoms__c,&quot;19.pain&quot;),
+		INCLUDES(Symptoms__c,&quot;20.other&quot;),
+		AND(
+			OR(INCLUDES(Symptoms__c,&quot;7.watery eyes&quot;),INCLUDES(Symptoms__c,&quot;8.redness&quot;)),
+			OR(
+				INCLUDES(Symptoms__c,&quot;1.heat sensation&quot;),
+				INCLUDES(Symptoms__c,&quot;2.dryness&quot;),
+				INCLUDES(Symptoms__c,&quot;3.stinging&quot;),
+				INCLUDES(Symptoms__c,&quot;2.dryness&quot;),
+				INCLUDES(Symptoms__c,&quot;4.skin tightness&quot;),
+				INCLUDES(Symptoms__c,&quot;5.burning sensation&quot;),
+				INCLUDES(Symptoms__c,&quot;6.itching&quot;)
+
+			)
+		)
+
+	)
+,
+&quot;INTOLERANCE&quot;
+,
+IF(
+OR(
+INCLUDES(Symptoms__c,&quot;1.heat sensation&quot;),
+INCLUDES(Symptoms__c,&quot;2.dryness&quot;),
+INCLUDES(Symptoms__c,&quot;3.stinging&quot;),
+INCLUDES(Symptoms__c,&quot;2.dryness&quot;),
+INCLUDES(Symptoms__c,&quot;4.skin tightness&quot;),
+INCLUDES(Symptoms__c,&quot;5.burning sensation&quot;),
+INCLUDES(Symptoms__c,&quot;6.itching&quot;),
+INCLUDES(Symptoms__c,&quot;7.watery eyes&quot;),
+INCLUDES(Symptoms__c,&quot;8.redness&quot;)
+
+),
+
+
+&quot;DISCOMFORT&quot;,
+&quot;NOT APPLICABLE&quot;
+
+	)
+ )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case assessment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Mailing_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.CosmetoAddress__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mailing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purchase_abroad__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Purchase abroad</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SafetyBookImage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(&quot;https://parfumschristiandior--uat--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0687Z000001bJdV&amp;operationContext=CHATTER&amp;contentId=05T7Z000004GN9d&quot;, &apos;Image&apos;, 50, 50)</formula>
+        <label>SafetyBook Logo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Self_medication__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Self medication</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Address_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Address Reporter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apparition_delay__c</fullName>
+        <externalId>false</externalId>
+        <label>Apparition delay unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Immediately</fullName>
+                    <default>false</default>
+                    <label>Immediately</label>
+                </value>
+                <value>
+                    <fullName>x Hours</fullName>
+                    <default>false</default>
+                    <label>x Hours</label>
+                </value>
+                <value>
+                    <fullName>x Days</fullName>
+                    <default>false</default>
+                    <label>x Days</label>
+                </value>
+                <value>
+                    <fullName>x weeks</fullName>
+                    <default>false</default>
+                    <label>x weeks</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Application_site__c</fullName>
+        <externalId>false</externalId>
+        <label>Application site</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Armpit</fullName>
+                    <default>false</default>
+                    <label>Armpit</label>
+                </value>
+                <value>
+                    <fullName>Body</fullName>
+                    <default>false</default>
+                    <label>Body</label>
+                </value>
+                <value>
+                    <fullName>Cheeks</fullName>
+                    <default>false</default>
+                    <label>Cheeks</label>
+                </value>
+                <value>
+                    <fullName>Chest</fullName>
+                    <default>false</default>
+                    <label>Chest</label>
+                </value>
+                <value>
+                    <fullName>Chin</fullName>
+                    <default>false</default>
+                    <label>Chin</label>
+                </value>
+                <value>
+                    <fullName>Ears</fullName>
+                    <default>false</default>
+                    <label>Ears</label>
+                </value>
+                <value>
+                    <fullName>Eye</fullName>
+                    <default>false</default>
+                    <label>Eye</label>
+                </value>
+                <value>
+                    <fullName>Eyebrows</fullName>
+                    <default>false</default>
+                    <label>Eyebrows</label>
+                </value>
+                <value>
+                    <fullName>Eye contour</fullName>
+                    <default>false</default>
+                    <label>Eye contour</label>
+                </value>
+                <value>
+                    <fullName>Eyelashes</fullName>
+                    <default>false</default>
+                    <label>Eyelashes</label>
+                </value>
+                <value>
+                    <fullName>Eyelids</fullName>
+                    <default>false</default>
+                    <label>Eyelids</label>
+                </value>
+                <value>
+                    <fullName>Face</fullName>
+                    <default>false</default>
+                    <label>Face</label>
+                </value>
+                <value>
+                    <fullName>Foot</fullName>
+                    <default>false</default>
+                    <label>Foot</label>
+                </value>
+                <value>
+                    <fullName>Forehead</fullName>
+                    <default>false</default>
+                    <label>Forehead</label>
+                </value>
+                <value>
+                    <fullName>Hair</fullName>
+                    <default>false</default>
+                    <label>Hair</label>
+                </value>
+                <value>
+                    <fullName>Jaw</fullName>
+                    <default>false</default>
+                    <label>Jaw</label>
+                </value>
+                <value>
+                    <fullName>Lip contour</fullName>
+                    <default>false</default>
+                    <label>Lip contour</label>
+                </value>
+                <value>
+                    <fullName>Lips</fullName>
+                    <default>false</default>
+                    <label>Lips</label>
+                </value>
+                <value>
+                    <fullName>Nail</fullName>
+                    <default>false</default>
+                    <label>Nail</label>
+                </value>
+                <value>
+                    <fullName>Neck</fullName>
+                    <default>false</default>
+                    <label>Neck</label>
+                </value>
+                <value>
+                    <fullName>Nose</fullName>
+                    <default>false</default>
+                    <label>Nose</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comment_Symptoms__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Country_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Reporter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>See_a_pharmacist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>See a pharmacist</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Seriousness_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Seriousness Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Temporary or permanent functional incapacity</fullName>
+                    <default>false</default>
+                    <label>Temporary or permanent functional incapacity</label>
+                </value>
+                <value>
+                    <fullName>Hospitalization</fullName>
+                    <default>false</default>
+                    <label>Hospitalization</label>
+                </value>
+                <value>
+                    <fullName>Congenital anomaly</fullName>
+                    <default>false</default>
+                    <label>Congenital anomaly</label>
+                </value>
+                <value>
+                    <fullName>Death</fullName>
+                    <default>false</default>
+                    <label>Death</label>
+                </value>
+                <value>
+                    <fullName>Immediate vital risk</fullName>
+                    <default>false</default>
+                    <label>Immediate vital risk</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>N.A</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>N.A</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Symptom_duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptom Duration Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Minutes</fullName>
+                    <default>false</default>
+                    <label>Minutes</label>
+                </value>
+                <value>
+                    <fullName>Hours</fullName>
+                    <default>false</default>
+                    <label>Hours</label>
+                </value>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+                <value>
+                    <fullName>Weeks</fullName>
+                    <default>false</default>
+                    <label>Weeks</label>
+                </value>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>false</default>
+                    <label>Months</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_Assessment_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Case assessment 1</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_assessment_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  isPurged__c,Case_Assessment_1__c,Case_assessment__c)
+
+
+/* IF( Case_assessment__c&lt;&gt;NULL &amp;&amp;Case_Assessment_1__c =NULL,Case_assessment__c ,(SUBSTITUTE( Case_assessment__c,  Case_assessment__c,Case_Assessment_1__c )  )
+)*/</formula>
+        <label>Case assessment 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Province_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Province Reporter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zip_Code_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Zip Code Reporter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Countryofincidence__c</fullName>
+        <externalId>false</externalId>
+        <label>Country of occurrence</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Declared_Pregnancy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Fill this field only if the customer mention it.</inlineHelpText>
+        <label>Declared Pregnancy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_contact_date__c</fullName>
+        <externalId>false</externalId>
+        <label>1st contact Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Frequency_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Frequency of use - Quantity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hospital_treatment__c</fullName>
+        <externalId>false</externalId>
+        <label>Hospital treatment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Recovery_situation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>After stop of application</inlineHelpText>
+        <label>Recovery situation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Partially</fullName>
+                    <default>false</default>
+                    <label>Partially</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reporter_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Last name Reporter</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Submit_To_Mulesoft__c</fullName>
+        <externalId>false</externalId>
+        <formula>!ISPICKVAL(To_be_sent_to_Ennov__c,&quot;&quot;) &amp;&amp; ISBLANK(Submited_Date_To_Mulesoft__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Submit To Mulesoft</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Third_contact_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>3rd contact Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Additional_document__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional document</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prescription</fullName>
+                    <default>false</default>
+                    <label>Prescription</label>
+                </value>
+                <value>
+                    <fullName>Sick leave note</fullName>
+                    <default>false</default>
+                    <label>Sick leave note</label>
+                </value>
+                <value>
+                    <fullName>Hospitalization report</fullName>
+                    <default>false</default>
+                    <label>Hospitalization report</label>
+                </value>
+                <value>
+                    <fullName>Other medical document</fullName>
+                    <default>false</default>
+                    <label>Other medical document</label>
+                </value>
+                <value>
+                    <fullName>Photos of reaction</fullName>
+                    <default>false</default>
+                    <label>Photos of reaction</label>
+                </value>
+                <value>
+                    <fullName>Photos of product</fullName>
+                    <default>false</default>
+                    <label>Photos of product</label>
+                </value>
+                <value>
+                    <fullName>Photos</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Photos</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>City_State_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>City/State Reporter</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_Re_Exposure__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comments_if_refusal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comments if refusal</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Occupation_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Occupation Reporter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consumer association</fullName>
+                    <default>false</default>
+                    <label>Consumer association</label>
+                </value>
+                <value>
+                    <fullName>Health Professional</fullName>
+                    <default>false</default>
+                    <label>Health Professional</label>
+                </value>
+                <value>
+                    <fullName>Journalist</fullName>
+                    <default>false</default>
+                    <label>Journalist</label>
+                </value>
+                <value>
+                    <fullName>Lawyer</fullName>
+                    <default>false</default>
+                    <label>Lawyer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reporter_First_name__c</fullName>
+        <externalId>false</externalId>
+        <label>First name Reporter</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Second_contact_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd contact Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>To_be_sent_to_Ennov__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>once this field we be filled in you won’t be able to modify its value</inlineHelpText>
+        <label>to be sent to SafetyBook</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Without vigilance partner follow up and anonymisation</fullName>
+                    <default>false</default>
+                    <label>Without vigilance partner follow up and anonymisation</label>
+                </value>
+                <value>
+                    <fullName>With vigilance partner  follow up</fullName>
+                    <default>false</default>
+                    <label>With vigilance partner  follow up</label>
+                </value>
+                <value>
+                    <fullName>With vigilance partner follow up and anonymisation</fullName>
+                    <default>false</default>
+                    <label>With vigilance partner follow up and anonymisation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Causality_assessment__c</fullName>
+        <externalId>false</externalId>
+        <label>Causality assessment</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very likely</fullName>
+                    <default>false</default>
+                    <label>Very likely</label>
+                </value>
+                <value>
+                    <fullName>Likely</fullName>
+                    <default>false</default>
+                    <label>Likely</label>
+                </value>
+                <value>
+                    <fullName>Not clearly attributable</fullName>
+                    <default>false</default>
+                    <label>Not clearly attributable</label>
+                </value>
+                <value>
+                    <fullName>Unlikely</fullName>
+                    <default>false</default>
+                    <label>Unlikely</label>
+                </value>
+                <value>
+                    <fullName>Excluded</fullName>
+                    <default>false</default>
+                    <label>Excluded</label>
+                </value>
+                <value>
+                    <fullName>N.A</fullName>
+                    <default>false</default>
+                    <label>N.A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comment_Sun_exposure__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comment_on_treatment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment on treatment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Country_of_incidence__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Country__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country of incidence</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormScreenFlowFilled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FormScreenFlowFilled</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Initial_receipt_date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of distributor/affiliate be aware of the event</inlineHelpText>
+        <label>Initial receipt date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Medical_history_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Medical history type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>en attente de validation</fullName>
+                    <default>false</default>
+                    <label>en attente de validation</label>
+                </value>
+                <value>
+                    <fullName>Test1</fullName>
+                    <default>false</default>
+                    <label>Test1</label>
+                </value>
+                <value>
+                    <fullName>Test2</fullName>
+                    <default>false</default>
+                    <label>Test2</label>
+                </value>
+                <value>
+                    <fullName>Test3</fullName>
+                    <default>false</default>
+                    <label>Test3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Middle_name_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Middle name Reporter</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vigilance_partner_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Vigilance partner ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Last_application_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last application date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_phone_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile/phone Reporter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Product_implication_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Product implication 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Suspected</fullName>
+                    <default>false</default>
+                    <label>Suspected</label>
+                </value>
+                <value>
+                    <fullName>Concomitant</fullName>
+                    <default>false</default>
+                    <label>Concomitant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_implication_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Product implication 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Suspected</fullName>
+                    <default>false</default>
+                    <label>Suspected</label>
+                </value>
+                <value>
+                    <fullName>Concomitant</fullName>
+                    <default>false</default>
+                    <label>Concomitant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_implication_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Product implication 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Suspected</fullName>
+                    <default>false</default>
+                    <label>Suspected</label>
+                </value>
+                <value>
+                    <fullName>Concomitant</fullName>
+                    <default>false</default>
+                    <label>Concomitant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_implication_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Product implication 4</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Suspected</fullName>
+                    <default>false</default>
+                    <label>Suspected</label>
+                </value>
+                <value>
+                    <fullName>Concomitant</fullName>
+                    <default>false</default>
+                    <label>Concomitant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_implication_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Product implication 5</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Suspected</fullName>
+                    <default>false</default>
+                    <label>Suspected</label>
+                </value>
+                <value>
+                    <fullName>Concomitant</fullName>
+                    <default>false</default>
+                    <label>Concomitant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_with_a_status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Product with a regulatory status when the product has a regulatory status (ex: OTC, DIN, Cosmeceutical,…)</inlineHelpText>
+        <label>Product with a status</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comment_Frequency_Unit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comment_Hospital_Visit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comment_Skin_Condition__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comment_on_seriousness__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>First_application_date__c</fullName>
+        <externalId>false</externalId>
+        <label>First application date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Receipt_date_by_Maison__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of Maison be aware of the event</inlineHelpText>
+        <label>Receipt date by Maison</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apparition_delay_number__c</fullName>
+        <externalId>false</externalId>
+        <label>Apparition delay number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_Self_medication__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>See_health_professional__c</fullName>
+        <externalId>false</externalId>
+        <label>See a health professional</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>General practitioner</fullName>
+                    <default>false</default>
+                    <label>General practitioner</label>
+                </value>
+                <value>
+                    <fullName>Specialist</fullName>
+                    <default>false</default>
+                    <label>Specialist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Serious_adverse_event_c__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Serious adverse event confirmation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Symptom_duration_number__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptom duration number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_Application_Site__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Inci_list_Product_notice__c</fullName>
+        <externalId>false</externalId>
+        <label>Inci list &amp; Product notice</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Not applicable</fullName>
+                    <default>false</default>
+                    <label>Not applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reporter_is_the_consumer__c</fullName>
+        <externalId>false</externalId>
+        <label>Reporter is the consumer</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_causality_assessment__c</fullName>
+        <externalId>false</externalId>
+        <label>Date causality assessment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Professional_product_used__c</fullName>
+        <externalId>false</externalId>
+        <label>Professional use</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>See_a_health_professional__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Health Profesionnal</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pharmacist</fullName>
+                    <default>false</default>
+                    <label>Pharmacist</label>
+                </value>
+                <value>
+                    <fullName>General practitioner</fullName>
+                    <default>false</default>
+                    <label>General practitioner</label>
+                </value>
+                <value>
+                    <fullName>Specialist</fullName>
+                    <default>false</default>
+                    <label>Specialist</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submited_Date_To_Mulesoft__c</fullName>
+        <externalId>false</externalId>
+        <label>Submited Date To Mulesoft</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Comment_Type_Of_Health_Pro__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Resubmit_To_Mulesoft_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Resubmit To Mulesoft Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apparition_Delay_Precisions__c</fullName>
+        <externalId>false</externalId>
+        <label>Apparition Delay Precisions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_Allergic_Background__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>First_Name_Cosmetovigilance__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Contact.FirstName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conclusion_vigilance_Partner__c</fullName>
+        <externalId>false</externalId>
+        <label>Conclusion vigilance Partner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Symptoms_Duration_Precisions__c</fullName>
+        <externalId>false</externalId>
+        <label>Symptoms Duration Precisions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_on_hospital_treatment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment on hospital treatment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>GDPR_oral_communication_given__c</fullName>
+        <externalId>false</externalId>
+        <label>GDPR oral communication given</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N.A</fullName>
+                    <default>false</default>
+                    <label>N.A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Health_Professional_Consulted__c</fullName>
+        <externalId>false</externalId>
+        <label>Health Professional Consulted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Last_date_status_modification__c</fullName>
+        <externalId>false</externalId>
+        <label>Last date status modification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Resubmit_Date_To_Mulesoft__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Resubmit Date To Mulesoft</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_with_the_end_user__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship with the end user</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Health professional</fullName>
+                    <default>false</default>
+                    <label>Health professional</label>
+                </value>
+                <value>
+                    <fullName>Family member</fullName>
+                    <default>false</default>
+                    <label>Family member</label>
+                </value>
+                <value>
+                    <fullName>Friend</fullName>
+                    <default>false</default>
+                    <label>Friend</label>
+                </value>
+                <value>
+                    <fullName>Colleague</fullName>
+                    <default>false</default>
+                    <label>Colleague</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description_Health_Professional__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Health professional &amp; Treatment</inlineHelpText>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_customer_contact_by_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>1st customer contact by phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Response</fullName>
+                    <default>false</default>
+                    <label>Response</label>
+                </value>
+                <value>
+                    <fullName>No response</fullName>
+                    <default>false</default>
+                    <label>No response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sun_exposure_or_tanning_session__c</fullName>
+        <externalId>false</externalId>
+        <label>Sun exposure or tanning session</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Third_customer_contact_by_phone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If the client doesn’t respond, wait a little longer before to close the case and send it to Ennov</inlineHelpText>
+        <label>3rd customer contact by phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Response</fullName>
+                    <default>false</default>
+                    <label>Response</label>
+                </value>
+                <value>
+                    <fullName>No response</fullName>
+                    <default>false</default>
+                    <label>No response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cosmetovigilance_form_acceptance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If the client doesn’t come back to you after the deadline, wait a little longer before to close the case and send it to Ennov</inlineHelpText>
+        <label>Cosmetovigilance form acceptance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Form acceptance on hold customer’s decision</fullName>
+                    <default>false</default>
+                    <label>Form acceptance on hold customer’s decision</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Second_customer_contact_by_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>2nd customer contact by phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Response</fullName>
+                    <default>false</default>
+                    <label>Response</label>
+                </value>
+                <value>
+                    <fullName>No response</fullName>
+                    <default>false</default>
+                    <label>No response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comment_See_a_health_professional__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please specify in English. Comments must be factual, objective, non-discriminatory and non aggresive. They could be read by the client himself</inlineHelpText>
+        <label>Comment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Concomitent_product_used__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor Concomitant product used</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Potential_Serious_Undesirable_Effect__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Serious adverse event</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Allergic_Background_and_skin_condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Allergic Background and skin condition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cosmetic</fullName>
+                    <default>false</default>
+                    <label>Cosmetic</label>
+                </value>
+                <value>
+                    <fullName>Drug</fullName>
+                    <default>false</default>
+                    <label>Drug</label>
+                </value>
+                <value>
+                    <fullName>Food</fullName>
+                    <default>false</default>
+                    <label>Food</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Refuse to answer</fullName>
+                    <default>false</default>
+                    <label>Refuse to answer</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Vigilance_Partner_follow_up_acceptance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Countries with Axpharma follow up are :
+
+England, Ireland, Scotland, Wales, Cyprus, Malta, Sweden, Norway, Finland, Denmark, Netherlands, Belgium, Luxemburg, Switzerland, Germany, Austria, Poland, Latvia, Lithuania, Estonia, France, Spain, Portugal, Italy, Greece, Croatia, Serbia, Bosnia, Slovenia, Montenegro, Romania, Hungary, Bulgaria ,Albania, Slovakia, Czech Republic, Russia, Ukraine, Turkey, Israël</inlineHelpText>
+        <label>Vigilance Partner follow up acceptance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Investigation accepted</label>
+                </value>
+                <value>
+                    <fullName>Investigation on hold customer’s decision</fullName>
+                    <default>false</default>
+                    <label>Investigation on hold customer’s decision</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>Investigation refused</label>
+                </value>
+                <value>
+                    <fullName>Not applicable</fullName>
+                    <default>false</default>
+                    <label>Not applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <validationRules>
+        <fullName>Block_ENOV_field</fullName>
+        <active>true</active>
+        <description>Prevent the user to modify the value of the ENOV field after choosing a value</description>
+        <errorConditionFormula>AND(PRIORVALUE(To_be_sent_to_Ennov__c) &lt;&gt; null, ISCHANGED( To_be_sent_to_Ennov__c ))</errorConditionFormula>
+        <errorDisplayField>To_be_sent_to_Ennov__c</errorDisplayField>
+        <errorMessage>You can’t modify the value of this field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Inci_list_Product_notice_Mandatory</fullName>
+        <active>true</active>
+        <description>Si Vigilance Partner follow up acceptance = Investigation accepted  et que le champ “Inci list &amp; Product notice”  n’est pas complété (avec Yes, No ou not Applicable) ne pas pouvoir compléter “to be sent to Ennov”</description>
+        <errorConditionFormula>AND (ISPICKVAL(Vigilance_Partner_follow_up_acceptance__c,&quot;Yes&quot;), ISPICKVAL( Inci_list_Product_notice__c,&quot;&quot; ), ISCHANGED( To_be_sent_to_Ennov__c ))</errorConditionFormula>
+        <errorMessage>Inci list Product notice Mandatory if Vigilance Partner Follow Up Acceptance = Investigation Accepted for &quot;To be sent to Ennov&quot;</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Courrier</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Export Sheet</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Cosmetovigilance_Form__c.Id}
+&amp;QueryId=
+[CasePCD]0Q_004UAI828385,
+[PCDCOSMETO]0Q_005UAI048739,
+[CaseCOSMETO]0Q_021UAI293458
+
+&amp;TemplateId=0T_013UAI033595&amp;DS7=3</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_AXPHARME</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--uat--apxtconga4.visualforce.com/a0a7Z000007lXZKQA2.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>AXPHARME</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Cosmetovigilance_Form__c.Id}</url>
+        <width>900</width>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>DUE_Feedback_compact_layout</fullName>
+        <fields>Name</fields>
+        <fields>Market_Flag__c</fields>
+        <fields>due__CreatedAt__c</fields>
+        <fields>due__Account__c</fields>
+        <fields>due__Case__c</fields>
+        <fields>due__Profile__c</fields>
+        <fields>Status_DUE__c</fields>
+        <label>DUE Feedback compact layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Case_Type_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(due__Case__r.Type)</formula>
+        <label>Case Type 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_record_type__c</fullName>
+        <externalId>false</externalId>
+        <formula>due__Case__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case record type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comment_from_Advisor__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment from Advisor</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_results__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact results</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Satisfied</fullName>
+                    <default>false</default>
+                    <label>Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Dissatisfied</fullName>
+                    <default>false</default>
+                    <label>Dissatisfied</label>
+                </value>
+                <value>
+                    <fullName>Not applicable</fullName>
+                    <default>false</default>
+                    <label>Not applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DUE_NPS_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>DUE NPS Score</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateTimeForDelete__c</fullName>
+        <externalId>false</externalId>
+        <formula>now()-1/1440*59</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Date Time For Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Instant_advisory__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Instant advisory</label>
+        <referenceTo>Instant_advisory__c</referenceTo>
+        <relationshipLabel>Diduenjoy Feedbacks</relationshipLabel>
+        <relationshipName>Diduenjoy_Feedbacks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Market_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>due__Account__r.PersonContact.Country_Pictogram__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market Flag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(due__Account__r.Market__pc)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_DUE__c</fullName>
+        <externalId>false</externalId>
+        <label>Handling status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by email (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by email (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone once - no answer</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone once - no answer</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone twice - no answer</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone twice - no answer</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone no answer,  then contacted by email (solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone no answer,  then contacted by email (solved)</label>
+                </value>
+                <value>
+                    <fullName>Contacted by phone &amp; email (not solved)</fullName>
+                    <default>false</default>
+                    <label>Contacted by phone &amp; email (not solved)</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Open</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <validationRules>
+        <fullName>If_task_completed_status_not_NEW</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( ISPICKVAL(Status_DUE__c, &apos;New&apos;), NOT(ISBLANK(TEXT(Contact_results__c))))</errorConditionFormula>
+        <errorMessage>You must change the Handling status.</errorMessage>
+    </validationRules>
+</CustomObject>

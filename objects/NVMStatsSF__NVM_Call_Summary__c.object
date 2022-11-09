@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Accepted__c</fullName>
+        <description>Custom Field</description>
+        <externalId>false</externalId>
+        <formula>NOT(
+AND(
+NVMStatsSF__Total_Call_Duration__c &gt;= 0 &amp;&amp;
+NVMStatsSF__Agent_Talk_Time__c ==0 &amp;&amp;
+NVMStatsSF__Queue_Duration__c == 0 &amp;&amp;
+NVMStatsSF__Agent__c == null &amp;&amp;
+NVMStatsSF__Queue_Name__c == null &amp;&amp;
+NVMStatsSF__MessageTaken__c == false
+))
+&amp;&amp;
+Received__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accepted</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AgentRingMoreThan5s__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(NVMStatsSF__Agent_Ring_Duration__c &gt; 5,ISBLANK( NVMStatsSF__Agent__c )),1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>1 if call is abandoned an call ring more than 5s</inlineHelpText>
+        <label>AgentRingMoreThan5s</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agent_Pick_Up__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( NVMStatsSF__Agent__c )),1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agent Pick Up</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CCR_A_Abandoned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field
+Checkbox - Updated by Flow</description>
+        <externalId>false</externalId>
+        <label>CCR A Abandoned</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CCR_A_Handled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field
+Checkbox - Updated by Flow</description>
+        <externalId>false</externalId>
+        <label>CCR A Handled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CCR_Q_Abandoned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field
+Checkbox - Updated by Flow</description>
+        <externalId>false</externalId>
+        <label>CCR Q Abandoned</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CCR_Q_Handled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field
+Checkbox - Updated by Flow</description>
+        <externalId>false</externalId>
+        <label>CCR Q Handled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CSC_Ring_Duration__c</fullName>
+        <description>Custom field
+To measure the ring duration for the Customer Service</description>
+        <externalId>false</externalId>
+        <formula>IF(NVMStatsSF__Last_State__c =&quot;CCR Handled&quot;, 0,
+IF( NVMStatsSF__Agent_Ring_Duration__c&lt;&gt;NVMStatsSF__Last_Ring_Duration__c,
+NVMStatsSF__Agent_Ring_Duration__c-NVMStatsSF__Last_Ring_Duration__c,
+NVMStatsSF__Last_Ring_Duration__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CSC - Ring Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Business_Hour__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field
+Checkbox - Updated by Flow
+To flag a call that happened during Business Hours (depends on Call Plan)</description>
+        <externalId>false</externalId>
+        <label>Is Business Hour</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LocalDayServiceName__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( WEEKDAY( DATEVALUE(CreatedDate-  TimeZoneOffset__c /24)) , 1, &quot;Sunday&quot;, 2, &quot;Monday&quot;, 3, &quot;Tuesday&quot;, 4,
+&quot;Wednesday&quot;, 5, &quot;Thursday&quot;, 6, &quot;Friday&quot;, 7, &quot;Saturday&quot;,&quot;Unknow&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LocalDayServiceName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalHoursServiceName__c</fullName>
+        <externalId>false</externalId>
+        <formula>HOUR(TIMEVALUE (CreatedDate -   TimeZoneOffset__c  /24))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Start hour from the Service Name Timezone</inlineHelpText>
+        <label>LocalHoursServiceName</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocalTimeBusinessHoursV2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>True if Call is in Business Hours from Service Name Timezone with DST (filled by the next process builder)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>True if Call is in Business Hours from Service Name Timezone with DST</inlineHelpText>
+        <label>LocalTimeBusinessHours</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manual_transfert__c</fullName>
+        <description>Custom field
+To identify transfers to external contacts</description>
+        <externalId>false</externalId>
+        <formula>NVMStatsSF__Last_State__c =&quot;Agent Handled&quot; &amp;&amp; NVMStatsSF__Agent2__c =null
+&amp;&amp; NVMStatsSF__Number_of_Transfers__c &gt;= 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Manual transfert</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NVM_Contact_reason__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;PRE PURCHASE&apos;), &apos;Pre-Purchase Experience&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;PURCHASE EXPERIENCE&apos;), &apos;Purchase Experience&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;SERVICE EXPERIENCE&apos;), &apos;Service Experience&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;PRODUCT EXPERIENCE&apos;), &apos;Product Experience&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;CRM POLICY&apos;), &apos;CRM Policy&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;GENERAL INQUIRIES&apos;), &apos;General inquiries&apos;,
+IF(CONTAINS(TEXT(NVMStatsSF__Related_Case__r.Type) , &apos;OTHERS&apos;), &apos;Others&apos;,
+TEXT(NVMStatsSF__Related_Case__r.Type))))))))</formula>
+        <label>NVM Contact reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NVM_Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Autriche&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Austria&apos;)), &apos;AT&apos;, 
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Belgique&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Belgium&apos;)), &apos;BE&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Czech Republic&apos;), &apos;CZ&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Denmark&apos;), &apos;DK&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Finland&apos;), &apos;FI&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;France&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;MCD&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Ecommerce FR&apos;),  CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Very Dior&apos;), NVMStatsSF__NVM_Service_Name__c = &apos;PCD Ecommerce&apos;, NVMStatsSF__NVM_Service_Name__c = &apos;PCD ECommerce&apos;, NVMStatsSF__NVM_Service_Name__c = &apos;PCD Evenements&apos;, NVMStatsSF__NVM_Service_Name__c = &apos;PCD ECommerce&apos;, NVMStatsSF__Queue_Name__c = &apos;Craig SRS Test ACD&apos;, NVMStatsSF__Queue_Name__c = &apos;PCD Ecom FR&apos; ), &apos;FR&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Allemagne&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Germany&apos;)), &apos;DE&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Greece&apos;), &apos;GR&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Hungary&apos;), &apos;HU&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Ireland&apos;), &apos;IE&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Italie&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Italy&apos;), NVMStatsSF__Queue_Name__c = &apos;PCD Ecom IT&apos;), &apos;IT&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Luxembourg&apos;), &apos;LU&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Hollande&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;NL&apos;), NVMStatsSF__Queue_Name__c = &apos;PCD Ecom NL&apos;), &apos;NL&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Poland&apos;), &apos;PL&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Portugal&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Portugal&apos;)), &apos;PT&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Romania&apos;), &apos;RO&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Russie&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Russia&apos;)), &apos;RU&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Espagne&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Spain&apos;), NVMStatsSF__Queue_Name__c = &apos;PCD Ecom ES&apos;), &apos;ES&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Sweden&apos;), &apos;SE&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Norway&apos;), &apos;NO&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Suisse&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Switzerland&apos;)), &apos;CH&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;UK&apos;), CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;United Kingdom&apos;)), &apos;GB&apos;,
+IF(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Slovakia&apos;), &apos;SK&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;Japan&apos;), CONTAINS(NVMStatsSF__Queue_Name__c, &apos;JP&apos;)), &apos;JP&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;CAN&apos;), CONTAINS(NVMStatsSF__Queue_Name__c, &apos;CAN&apos;)), &apos;CA&apos;,
+IF(OR(CONTAINS(NVMStatsSF__NVM_Service_Name__c, &apos;USA&apos;), CONTAINS(NVMStatsSF__Queue_Name__c, &apos;US&apos;)), &apos;US&apos;,
+IF( AND(NOT(ISPICKVAL(NVMStatsSF__Interaction_Type__c, &apos;phone&apos;)), OR(NVMStatsSF__Agent__r.UserRole.Name  = &apos;CS perimeter&apos;, NVMStatsSF__Agent__r.UserRole.Name   = &apos;ASM perimeter&apos;, NVMStatsSF__Agent__r.UserRole.Name  = &apos;Europe&apos;, NVMStatsSF__Agent__r.UserRole.Name  = &apos;PCD WW&apos;, Owner:User.UserRole.Name = &apos;CS perimeter&apos;, Owner:User.UserRole.Name  = &apos;ASM perimeter&apos;, Owner:User.UserRole.Name  = &apos;Europe&apos;, Owner:User.UserRole.Name  = &apos;PCD WW&apos;)), &apos;EU Hub&apos;,
+IF( AND(NOT(ISPICKVAL(NVMStatsSF__Interaction_Type__c, &apos;phone&apos;)), OR(NVMStatsSF__Agent__r.UserRole.Name  = &apos;Japan&apos;, Owner:User.UserRole.Name  = &apos;Japan&apos;)), &apos;Japan Hub&apos;,
+IF( AND(NOT(ISPICKVAL(NVMStatsSF__Interaction_Type__c, &apos;phone&apos;)), OR(NVMStatsSF__Agent__r.UserRole.Name  = &apos;NorthAmerica&apos;, Owner:User.UserRole.Name  = &apos;NorthAmerica&apos;)), &apos;NorthAmerica Hub&apos;,
+
+		 
+			
+		NVM_market_bis__c 	)))))))))))))))))))))))))))))</formula>
+        <label>NVM Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NVM_market_bis__c</fullName>
+        <externalId>false</externalId>
+        <label>NVM market bis</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Received__c</fullName>
+        <description>Custom Field
+To identify all calls that are received</description>
+        <externalId>false</externalId>
+        <formula>NVMStatsSF__Last_State__c&lt;&gt;&quot;Outbound Call&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Received</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recovery__c</fullName>
+        <externalId>false</externalId>
+        <label>Recovery</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeZoneOffset__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+OR(NVMStatsSF__NVM_Service_Name__c=&quot;PCD MCD&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Italie&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD France&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD UK&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD ECommerce&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Evenements&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD CTC Ecommerce&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Very Dior&quot;,
+NVMStatsSF__NVM_Service_Name__c=&quot;PCD Suisse&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Russie&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Espagne&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Belgique Flamand&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Hollande&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Autriche&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;PCD Belgique Francophone&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;Allemagne&quot;,NVMStatsSF__NVM_Service_Name__c=&quot;Portugal&quot;),
+IF(  AND( CreatedDate &gt;= $CustomMetadata.DST_Date__mdt.EU.DST_Start__c,CreatedDate &lt;= $CustomMetadata.DST_Date__mdt.EU.DST_End__c ),2,1),
+IF(NVMStatsSF__NVM_Service_Name__c= &quot;PCD USA&quot;,
+IF(  AND( CreatedDate &gt;= $CustomMetadata.DST_Date__mdt.US.DST_Start__c,CreatedDate &lt;= $CustomMetadata.DST_Date__mdt.US.DST_End__c ),4,5),
+0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Formule to determine the offset (from Service Name) including DST consideration</inlineHelpText>
+        <label>TimeZoneOffset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UTC_ISO_Week__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT(NVMStatsSF__UTC_ISO8601_Week__c, FIND(&quot;-&quot;, NVMStatsSF__UTC_ISO8601_Week__c, 6)-1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>UTC ISO Week</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Waiting_Time_c__c</fullName>
+        <description>Custom field
+To measure total waiting time (ring duration + queue duration)</description>
+        <externalId>false</externalId>
+        <formula>CSC_Ring_Duration__c + NVMStatsSF__Queue_Duration__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Waiting_Time__c</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Log_Event_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Log_Event_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -148,45 +154,123 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <gender>Masculine</gender>
-    <label>Employee</label>
+    <label>Log Event</label>
     <nameField>
-        <label>Nom de Employee</label>
-        <type>Text</type>
+        <displayFormat>Log-{00000}</displayFormat>
+        <label>Log Event Name</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Log Events</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>Market__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>20</length>
+        <label>Context</label>
+        <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
+        <fullName>Result__c</fullName>
         <externalId>false</externalId>
-        <label>Email</label>
+        <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SUCCESS</fullName>
+                    <default>false</default>
+                    <label>SUCCESS</label>
+                </value>
+                <value>
+                    <fullName>UNHANDLED_EXCEPTION</fullName>
+                    <default>false</default>
+                    <label>UNHANDLED_EXCEPTION</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Context__c</fullName>
+        <externalId>false</externalId>
+        <label>Context</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>phone__c</fullName>
+        <fullName>Log_Data__c</fullName>
         <externalId>false</externalId>
-        <label>Phone</label>
-        <length>10</length>
+        <label>Log Data</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Quiddity__c</fullName>
+        <externalId>false</externalId>
+        <label>Quiddity</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Severity__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DEBUG</fullName>
+                    <default>false</default>
+                    <label>DEBUG</label>
+                </value>
+                <value>
+                    <fullName>INFO</fullName>
+                    <default>false</default>
+                    <label>INFO</label>
+                </value>
+                <value>
+                    <fullName>WARN</fullName>
+                    <default>false</default>
+                    <label>WARN</label>
+                </value>
+                <value>
+                    <fullName>ERROR</fullName>
+                    <default>false</default>
+                    <label>ERROR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Request_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Id</label>
+        <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>

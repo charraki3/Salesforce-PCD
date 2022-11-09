@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>CDC WebToCase Mapping</label>
+    <pluralLabel>CDC WebToCase Mapping</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>CDC_Field_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Inquire the Field API Name or the technical ID</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>CDC Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Const_Value__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If this CDC field accepts only one constant value, inquire it here</inlineHelpText>
+        <label>Field Const Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>No_More_new_records</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISNEW()</errorConditionFormula>
+        <errorMessage>You cannot add new mapping fields. It may cause issues with the callout flow to CDC</errorMessage>
+    </validationRules>
+</CustomObject>

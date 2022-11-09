@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>NewAccountActionOverride</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Compte_Page_d_enregistrement</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Compte_Page_d_enregistrement</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Account_Compact_Layout</compactLayoutAssignment>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>DiscoveryGetAccountsAction</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Country_Pictogram__pc</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MobileInternationalFormat__pc</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PC_EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BirthdateUSConcatenate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Case_In_Progress__pc</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Attachment_POS__pc</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Client_Status_picto__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__pc</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <compactLayouts>
+        <fullName>Account_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Phone</fields>
+        <fields>BillingAddress</fields>
+        <fields>Website</fields>
+        <fields>OwnerId</fields>
+        <label>Account Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT( ISBLANK( Birth_Day__pc ) ) ,
+IF( DATE( 2000 , Birth_Month__pc , Birth_Day__pc ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
+YEAR (Today()) - Birth_Year__pc ,
+YEAR (Today()) - Birth_Year__pc -1 ),
+null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Logo__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Type__pc ,
+&quot;PROSPECT&quot;,
+IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/user_orange.png&quot;,&quot;PROSPECT&quot;),
+&quot;CONSUMER&quot;, IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/set_security_question.png&quot;,&quot;CONSUMER&quot;),
+IMAGE(&quot;https://parfumschristiandior--protodior--c.visualforce.com/resource/1610197603000/GraphicsPackNew/fatcow/farmfresh/32/user_red.png&quot;,&quot;GUEST&quot;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>___________________</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Tech</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pushed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pushed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Magic_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Magic Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unique_Id__c</fullName>
+        <description>Unique ID field for identifying Consumer whether ECO or Infoware (Stores the technicalID)</description>
+        <externalId>false</externalId>
+        <label>Unique Id</label>
+        <length>70</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comarch_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Comarch Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isDuplicate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>isDuplicate?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Anonymization__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Anonymization</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Created_by_CS__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND(CreatedBy.Profile.Id &lt;&gt; &quot;00e09000001ULPy&quot;, CreatedBy.Profile.Id &lt;&gt; &quot;00e09000000QmbF&quot;), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created by CS?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Parent_Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comarch_Id_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://loyalty-engine.lvmh-pc.com/backoffice/cc/accountDetails.do?id=&quot;&amp;Comarch_Id__c, Comarch_Id__c , &quot;_blank&quot;)</formula>
+        <label>Comarch Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_ParentId__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Infoware Id</label>
+        <length>70</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Currency</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMP_CreatedDate__c</fullName>
+        <description>CAS - Temp debug field</description>
+        <externalId>false</externalId>
+        <formula>DATETIMEVALUE(CreatedDate)</formula>
+        <label>TEMP_CreatedDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TechDataRecovery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TechDataRecovery</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Black_Gold_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Black Gold Status</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cumulative_points__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Cumulative points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TECH_DataRecovery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TECH_DataRecovery</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsExportableGlobal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsExportableGlobal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Status_picto__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Loyalty_Level__pc, &quot;Platinum&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmL&amp;operationContext=CHATTER&amp;contentId=05T0900000S8gf9&quot;,&quot;Platinum&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Silver&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm5&amp;operationContext=CHATTER&amp;contentId=05T0900000S8ggM&quot;,&quot;Silver&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Gold&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmC&amp;operationContext=CHATTER&amp;contentId=05T0900000S8gea&quot;,&quot;Gold&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;White&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmN&amp;operationContext=CHATTER&amp;contentId=05T0900000S8ggg&quot;,&quot;White&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Crystal&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm2&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geL&quot;,&quot;Crystal&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Pearl&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmN&amp;operationContext=CHATTER&amp;contentId=05T0900000S8ggg&quot;,&quot;Pearl&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Prospect&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmM&amp;operationContext=CHATTER&amp;contentId=05T0900000S8gfY&quot;,&quot;Prospect&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Inactive&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm4&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geu&quot;,&quot;Inactive&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;Black Gold&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm1&amp;operationContext=CHATTER&amp;contentId=05T0900000S8fGE&quot;,&quot;Black Gold&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;6&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmB&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geV&quot;,&quot;6&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;12&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm3&amp;operationContext=CHATTER&amp;contentId=05T0900000S8gek&quot;,&quot;12&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;13&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGmG&amp;operationContext=CHATTER&amp;contentId=05T0900000S8gez&quot;,&quot;13&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;5&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm6&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geQ&quot;,&quot;5&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;0&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm4&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geu&quot;,&quot;0&quot;),
+IF(ISPICKVAL(Loyalty_Level__pc , &quot;8&quot;), IMAGE(&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=06809000008IGm6&amp;operationContext=CHATTER&amp;contentId=05T0900000S8geQ&quot;,&quot;8&quot;),
+
+IMAGE(&quot;/sfc/servlet.shepherd/version/download/06809000000MfnSAAS&quot;,&quot;Inconnu&quot;))))))))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Client Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Infoware_Id_External__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Infoware_Id_External</label>
+        <length>70</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Sales Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Nb of Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMP_LastModifiedDate__c</fullName>
+        <description>CAS - Temp Debug Field</description>
+        <externalId>false</externalId>
+        <formula>DATETIMEVALUE( LastModifiedDate )</formula>
+        <label>TEMP_LastModifiedDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BirthdateUSConcatenate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (NOT( Birth_Year__pc=0)),
+TEXT(Birth_Month__pc)&amp;&quot;/&quot;&amp; TEXT(Birth_Day__pc)&amp;&quot;/&quot;&amp; TEXT(Birth_Year__pc),
+TEXT(Birth_Month__pc) &amp;&quot;/&quot;&amp; TEXT(Birth_Day__pc))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Birthdate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsExportableGlobalFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND(
+    NOT(ISPICKVAL(Type__pc, &apos;GUEST&apos;)),
+    NOT(ISPICKVAL(Type__pc, &apos;GENERIC&apos;)),
+    OR(NOT(ISBLANK(FirstName)), NOT(ISBLANK(First_Name_Kanji__pc))),
+    OR(NOT(ISBLANK(LastName)), NOT(ISBLANK(Last_Name_Kanji__pc))),
+    NOT(ISPICKVAL(Salutation, &quot;&quot;)),
+    NOT(ISPICKVAL(Market__pc, &quot;&quot;)),
+    OR(
+        AND(NOT(ISBLANK(PersonEmail)), Opt_in_Email__pc),
+        AND(NOT(ISBLANK(PersonMobilePhone)), Opt_in_SMS__pc),
+        AND(NOT(ISBLANK(PersonMobilePhone)), Opt_in_Phone__pc),
+        AND(
+            NOT(ISBLANK(PersonMailingStreet)),
+            NOT(ISBLANK(PersonMailingCity)),
+            NOT(ISBLANK(PersonMailingPostalCode)),
+            Opt_in_Mailing__pc
+        ),
+        Opt_in_Social_Messaging__pc
+    ),
+    LastModifiedBy.Username != &apos;apiuser.edifixio@pcd.com&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsExportableGlobalFormula</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BypassInfowareIDGeneration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>BypassInfowareIDGeneration</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reprise_phones_inter_US_CA__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+	AND(
+OR( ISPICKVAL(Market__pc, &quot;US&quot;),  ISPICKVAL(Market__pc, &quot;CA&quot;)),
+OR( NOT(ISBLANK( PersonHomePhone )),   NOT(ISBLANK( PersonMobilePhone)) 
+		)
+		), true, false)</formula>
+        <label>Reprise phones inter US/CA</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Consolidated_Attachment_POS__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( Attachment_POS__pc , Attachment_POS__pr.POS_Consolidated_ID__c &amp; &apos; - &apos; &amp; Attachment_POS__pr.App_Store_Name__c, &quot;_blank&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Consolidated Attachment POS</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Preferred_Beauty_Consultant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Preferred Beauty Consultant</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TECH_CorrespondenceLanguage__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE (Language__pc,&quot;DE&quot;,
+      CASE(Market__pc,&quot;DE&quot;,&quot;de&quot;,
+          &quot;AT&quot;,&quot;de_AT&quot;,
+	  &quot;BE&quot;,&quot;de_BE&quot;,
+	  &quot;CH&quot;,&quot;de_CH&quot;,
+	  &quot;LU&quot;,&quot;de_LU&quot;,&quot;&quot;),
+	  
+	  &quot;EN&quot;,
+	  CASE(Market__pc,&quot;AU&quot;,&quot;en_AU&quot;,
+	  &quot;CA&quot;,&quot;en_CA&quot;,
+	  &quot;GB&quot;,&quot;en_GB&quot;,
+	  &quot;HK&quot;,&quot;en_HK&quot;,
+	  &quot;IE&quot;,&quot;en_IE&quot;,
+	   &quot;IN&quot;,&quot;en_IN&quot;,
+	    &quot;MY&quot;,&quot;en_MY&quot;,
+		 &quot;PH&quot;,&quot;en_PH&quot;,
+		 	 &quot;SG&quot;,&quot;en_SG&quot;,
+			 	 &quot;US&quot;,&quot;en_US&quot;,
+				  &quot;ZA&quot;,&quot;en_ZA&quot;,&quot;&quot;),
+				  
+	&quot;ES&quot;,
+	  CASE(Market__pc,&quot;US&quot;,&quot;es_US&quot;,
+	  &quot;ES&quot;,&quot;es&quot;,&quot;&quot;),
+	  
+	    &quot;FR&quot;,
+	  CASE(Market__pc,&quot;FR&quot;,&quot;fr&quot;,
+	  &quot;BE&quot;,&quot;fr_BE&quot;,
+	  &quot;CA&quot;,&quot;fr_CA&quot;,
+	  &quot;CH&quot;,&quot;fr_CH&quot;,
+	  &quot;LU&quot;,&quot;fr_LU&quot;,&quot;&quot;),
+	  
+	  	    &quot;GB&quot;,
+	  CASE(Market__pc,&quot;GB&quot;,&quot;en_GB&quot;,&quot;&quot;),
+	  
+	 
+	 &quot;IT&quot;,
+	  CASE(Market__pc,&quot;CH&quot;,&quot;it_CH&quot;,
+	  &quot;IT&quot;,&quot;it&quot;,&quot;&quot;),
+	  
+	 &quot;NL&quot;,
+	  CASE(Market__pc,&quot;NL&quot;,&quot;nl_NL&quot;,
+	  &quot;BE&quot;,&quot;nl_BE&quot;,&quot;&quot;),
+	  
+	  
+	  &quot;US&quot;,
+	  CASE(Market__pc,&quot;US&quot;,&quot;en_US&quot;,&quot;&quot;),
+	  
+	    &quot;RU&quot;,
+	  CASE(Market__pc,&quot;RU&quot;,&quot;ru&quot;,
+	  &quot;PL&quot;,&quot;ru_PL&quot;,&quot;&quot;),
+	  
+	  
+	  &quot;PT&quot;,
+	  CASE(Market__pc,&quot;PT&quot;,&quot;pt_PT&quot;,
+	  &quot;BR&quot;,&quot;pt_BR&quot;,&quot;&quot;),
+	  
+	  
+	  &quot;CN&quot;,
+	  CASE(Market__pc,&quot;CN&quot;,&quot;zh_CN&quot;,
+	  &quot;HK&quot;,&quot;zh_HK&quot;,
+	  &quot;MY&quot;,&quot;zh_MY&quot;,
+	    &quot;SG&quot;,&quot;zh_SG&quot;,
+	    &quot;TW&quot;,&quot;zh_TW&quot;,&quot;&quot;),
+          
+
+          &quot;SE&quot;,
+	  CASE(Market__pc,&quot;SE&quot;,&quot;da&quot;,&quot;&quot;),
+
+&quot;BE&quot;,
+CASE(Market__pc,&quot;BE&quot;,&quot;fr_BE&quot;,
+&quot;FR&quot;,&quot;fr_BE&quot;,
+&quot;DE&quot;,&quot;de_BE&quot;,
+&quot;NL&quot;,&quot;nl_BE&quot;,&quot;&quot;),
+		
+		
+	  LOWER(TEXT(Language__pc)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Correspondence Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Points_Current_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Points Current Amount</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_by_Instant_Advisory_BC__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( CreatedBy.Profile.Name = &quot;PCD - Instant Advisory BC&quot; , true, false)</formula>
+        <label>Created by Instant Advisory BC?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Current_Level_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Current Level Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TEMP_reprise_international_phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>TEMP reprise international phone</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Achieved_Challenges_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Achieved Challenges Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Points_Total_Amount_This_Ye__c</fullName>
+        <description>Loyalty Points Total Amount of the loyalty program related to the customer for the current year</description>
+        <externalId>false</externalId>
+        <label>Loyalty Points Total Amount This Year</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Amount_To_Reach_Next_Lvl__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Sales Amount To Next Level</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Number_To_Reach_Next_Lvl__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Nb of Sales To Next Level</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Amount_To_Keep_Current_Lvl__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Sales Amount To Current Level</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Sales_Number_To_Keep_Current_Lvl__c</fullName>
+        <externalId>false</externalId>
+        <label>Loyalty Nb of Sales To Current Level</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Business_Accounts</fullName>
+        <active>true</active>
+        <label>Business Accounts</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Analyst</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>BirthdayChangeMore2</fullName>
+        <active>true</active>
+        <description>If</description>
+        <errorConditionFormula>AND( BirthDayChange__pc &gt;=2 ,
+OR (
+ISCHANGED ( Birth_Day__pc),
+ISCHANGED( Birth_Month__pc),
+ISCHANGED(Birth_Year__pc)
+),
+NOT($Profile.Name=&quot;PCD - API User&quot;),
+NOT($Profile.Name=&quot;PCD - CRM Manager&quot;),
+NOT($Profile.Name=&quot;PCD - Customer Service Manager Brand&quot;),
+NOT($Profile.Name=&quot;PCD - Customer Service Manager Supplier&quot;),
+NOT($Profile.Name=&quot;System Administrator&quot;)
+)</errorConditionFormula>
+        <errorMessage>Birthdate changes more than 2 times</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>GDPR</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Data Access</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={! Account.Id  }
+
+&amp;QueryId=
+[Cases]0Q_009UAI346739,
+[Activities]0Q_010UAI346739,
+[POS]0Q_012UAI792744,
+[History]0Q_011UAI314338
+
+&amp;OFN=GDPR - Right to Accessibility - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=GDPR - Right to Accessibility Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;TemplateGroup=GDPR</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Case</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Case</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&apos;{!URLFOR($Action.Case.NewCase, Account.Id )}&apos;);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NewCaseCustom</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>New Case</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/o/Case/new?useRecordTypeCheck=1&amp;defaultFieldValues=
+AccountId={!Account.Id},
+Market__c={!Account.Market__pc},
+Language={!Account.TECH_CorrespondenceLanguage__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--protodior--apxtconga4.visualforce.com/a0V7a000004ImfSEAS.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;QueryId=[Opptys]0Q_000EAA205250,
+[Contacts]0Q_001EAA205250,
+[Cases]0Q_002EAA205250,
+[Activities]0Q_003EAA205250
+
+&amp;TemplateId=0T_000EAA229282
+
+&amp;OFN=Account Brief - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=Account Brief Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;DefaultPDF=1
+&amp;TemplateGroup=Account</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief1</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--uat--apxtconga4.visualforce.com/a0a7Z000007lNFPQA2.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;QueryId=[Opptys]0Q_000UAI669715,
+[Contacts]0Q_001UAI669715,
+[Cases]0Q_002UAI669715,
+[Activities]0Q_003UAI669715
+
+&amp;TemplateId=0T_001UAI668531
+
+&amp;OFN=Account Brief - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=Account Brief Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;DefaultPDF=1
+&amp;TemplateGroup=Account</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief12</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--apxtconga4.visualforce.com/a15090000015azdAAA.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;TemplateId=0T_015UAI343823,0T_013EAC574214</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief123</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--apxtconga4.visualforce.com/a15090000015azeAAA.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;QueryId=[Opptys]0Q_016EAC575986,
+[Contacts]0Q_017EAC575986,
+[Cases]0Q_018EAC575986,
+[Activities]0Q_019EAC575986
+
+&amp;TemplateId=0T_015UAI343823,0T_013EAC574214
+
+&amp;OFN=Account Brief - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=Account Brief Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;DefaultPDF=1
+&amp;TemplateGroup=Account</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief_09Mar2021_08_23_13_AM</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--protodior--apxtconga4.visualforce.com/a0V7a000004ImfXEAS.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief 09Mar2021 08 23 13 AM</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;QueryId=[Opptys]0Q_004EAA059142,
+[Contacts]0Q_005EAA059142,
+[Cases]0Q_006EAA059142,
+[Activities]0Q_007EAA059142
+
+&amp;TemplateId=0T_001EAA060224
+
+&amp;OFN=Account Brief - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=Account Brief Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;DefaultPDF=1
+&amp;TemplateGroup=Account</url>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_Composer_SP_Account_Brief_25May2021_06_41_48_PM</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://parfumschristiandior--uat--apxtconga4.visualforce.com/a0a7Z000007mGxIQAU.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Composer SP Account Brief 25May2021 06 41 48 PM</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;QueryId=[Opptys]0Q_007UAI346739,
+[Contacts]0Q_008UAI346739,
+[Cases]0Q_009UAI346739,
+[Activities]0Q_010UAI346739
+
+&amp;OFN=Account Brief - {!Account.Name} - {!Today}
+&amp;AC0=1
+&amp;AC1=Account Brief Created By {!User.Name}
+&amp;SC0=1
+&amp;SC1=Attachments
+&amp;DefaultPDF=1
+&amp;TemplateGroup=Account</url>
+        <width>900</width>
+    </webLinks>
+</CustomObject>
